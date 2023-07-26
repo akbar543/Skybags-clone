@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Home = () => {
+const Slider = () => {
   return (
     <div>
-      home
+      
     </div>
   )
 }
 
-export default Home
+export default Slider
