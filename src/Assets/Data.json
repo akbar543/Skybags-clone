@@ -1,16 +1,23 @@
 {
   "slider": [
-    {
-      "itemurl": "https://skybags.co.in/cdn/shop/files/Skybags_Homepage-tiles_cityscape_Luggage.jpg?v=1684215393&width=2400"
+    { "id":1,
+      "itemurl": "https://skybags.co.in/cdn/shop/files/Skybags_Homepage-tiles_cityscape_Luggage.jpg?v=1684215393&width=2400",
+      "description": "Weekends"
     },
     {
-      "itemurl": "https://skybags.co.in/cdn/shop/files/skybags-homepage-banners-luggage.jpg?v=1684156814&width=2400"
+      "id":2,
+      "itemurl": "https://skybags.co.in/cdn/shop/files/skybags-homepage-banners-luggage.jpg?v=1684156814&width=2400",
+      "description": "Weekends"
     },
     {
-      "itemurl": "https://skybags.co.in/cdn/shop/files/skybags_homepage_banners_duffle.jpg?v=1684156745&width=2400"
+      "id":3,
+      "itemurl": "https://skybags.co.in/cdn/shop/files/skybags_homepage_banners_duffle.jpg?v=1684156745&width=2400",
+      "description": "Weekends"
     },
     {
-      "itemurl": "https://skybags.co.in/cdn/shop/collections/4b_0a82474f-3583-410f-8460-89e5f13b0b29.webp?v=1675942605&width=2400"
+      "id":4,
+      "itemurl": "https://skybags.co.in/cdn/shop/collections/4b_0a82474f-3583-410f-8460-89e5f13b0b29.webp?v=1675942605&width=2400",
+      "description": "Weekends"
     }
   ],
 

@@ -26,9 +26,9 @@ const Home = () => {
     <TopPick data={data1.topickstrending} FeatureData={data1.featurestopicksBackpacks}/>
 
     <Header item={`Occasion`}/>
-    <Banner/>
+    <Banner data={data1.slider}/>
     <Header item={`Categories`}/>
-    <Banner/>
+    <Banner data={data1.slider}/>
     <Feature2/>
     <Banner2/>
     </>
