@@ -1,0 +1,9 @@
+.topPick{
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 350;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    display: block;
+}
