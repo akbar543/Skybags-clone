@@ -10,11 +10,11 @@ const Cards = ({ id, image, description, review, price, other }) => {
       <p>{description}</p>
       <span className='review'> {star}{star}{star}{star}{star}{review} reviews</span>
       <span className='price'>{price}</span>
-      <div className='other'>
+      {/* <div className='other'>
         {other.map((item) => (
           <img  src={item} alt='other' />
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
