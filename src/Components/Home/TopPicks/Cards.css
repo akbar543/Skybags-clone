@@ -1,0 +1,36 @@
+.cardsContainer{
+    width: 21Vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardsContainer>img{
+    width: 20Vw;
+    height: 20Vw;
+    margin-bottom: 1rem;
+}
+.other >img{
+    width:2.5rem;
+    height:2.5rem;
+    border: solid gray 1px;
+    margin-right: 0.4rem;
+    margin-top: 1rem;
+}
+.review{
+    font-size: 1.2rem;;
+    padding-top:1r;
+}
+.review>svg{
+   
+        width: 1.5rem;
+        height: 1.5rem;
+        fill:orange;
+        margin-bottom: 0.51rem;
+
+}
+.price{
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
