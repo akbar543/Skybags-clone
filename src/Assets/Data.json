@@ -119,19 +119,42 @@
       "description": "Rain Cover"
     },
     {
-      "id": 1,
+      "id": 2,
       "image": "https://skybags.co.in/cdn/shop/files/Raincover_180x.webp?v=1677846080%20180w,%20//skybags.co.in/cdn/shop/files/Raincover_360x.webp?v=1677846080%20360w,%20//skybags.co.in/cdn/shop/files/Raincover_540x.webp?v=1677846080%20540w,%20//skybags.co.in/cdn/shop/files/Raincover_720x.webp?v=1677846080%20720w",
       "description": "Rain Cover"
     },
     {
-      "id": 1,
+      "id": 3,
       "image": "https://skybags.co.in/cdn/shop/files/Raincover_180x.webp?v=1677846080%20180w,%20//skybags.co.in/cdn/shop/files/Raincover_360x.webp?v=1677846080%20360w,%20//skybags.co.in/cdn/shop/files/Raincover_540x.webp?v=1677846080%20540w,%20//skybags.co.in/cdn/shop/files/Raincover_720x.webp?v=1677846080%20720w",
       "description": "Rain Cover"
     },
     {
-      "id": 1,
+      "id": 4,
       "image": "https://skybags.co.in/cdn/shop/files/Raincover_180x.webp?v=1677846080%20180w,%20//skybags.co.in/cdn/shop/files/Raincover_360x.webp?v=1677846080%20360w,%20//skybags.co.in/cdn/shop/files/Raincover_540x.webp?v=1677846080%20540w,%20//skybags.co.in/cdn/shop/files/Raincover_720x.webp?v=1677846080%20720w",
       "description": "Rain Cover"
     }
+  ],
+  "features2topicksBackpacks":[
+    {
+      "id": 1,
+      "image": "https://skybags.co.in/cdn/shop/files/Anti-Theft_29f9ac88-2d57-49a7-982b-6b2da1fde2a0_180x.webp?v=1676462790%20180w,%20//skybags.co.in/cdn/shop/files/Anti-Theft_29f9ac88-2d57-49a7-982b-6b2da1fde2a0_360x.webp?v=1676462790%20360w,%20//skybags.co.in/cdn/shop/files/Anti-Theft_29f9ac88-2d57-49a7-982b-6b2da1fde2a0_540x.webp?v=1676462790%20540w,%20//skybags.co.in/cdn/shop/files/Anti-Theft_29f9ac88-2d57-49a7-982b-6b2da1fde2a0_720x.webp?v=1676462790%20720w",
+      "description": "TSA Lock"
+    },
+    {
+      "id": 2,
+      "image": "https://skybags.co.in/cdn/shop/files/Dual_Wheels_bb17d3a1-ad1e-4dd0-8a4a-76835e55ac1a_180x.webp?v=1676462790%20180w,%20//skybags.co.in/cdn/shop/files/Dual_Wheels_bb17d3a1-ad1e-4dd0-8a4a-76835e55ac1a_360x.webp?v=1676462790%20360w,%20//skybags.co.in/cdn/shop/files/Dual_Wheels_bb17d3a1-ad1e-4dd0-8a4a-76835e55ac1a_540x.webp?v=1676462790%20540w,%20//skybags.co.in/cdn/shop/files/Dual_Wheels_bb17d3a1-ad1e-4dd0-8a4a-76835e55ac1a_720x.webp?v=1676462790%20720w",
+      "description": "Anti-Theft"
+    },
+    {
+      "id": 3,
+      "image": "https://skybags.co.in/cdn/shop/files/TSA_Lock_88643311-2e74-48f8-9820-60b7f094c48b_180x.webp?v=1676462790%20180w,%20//skybags.co.in/cdn/shop/files/TSA_Lock_88643311-2e74-48f8-9820-60b7f094c48b_360x.webp?v=1676462790%20360w,%20//skybags.co.in/cdn/shop/files/TSA_Lock_88643311-2e74-48f8-9820-60b7f094c48b_540x.webp?v=1676462790%20540w,%20//skybags.co.in/cdn/shop/files/TSA_Lock_88643311-2e74-48f8-9820-60b7f094c48b_720x.webp?v=1676462790%20720w",
+      "description": "Dual Wheels"
+    },
+    {
+      "id": 4,
+      "image": "https://skybags.co.in/cdn/shop/files/Rain_Cover_02fddbdc-bf74-4a5a-aa40-f4cda456faf6_180x.webp?v=1676462790%20180w,%20//skybags.co.in/cdn/shop/files/Rain_Cover_02fddbdc-bf74-4a5a-aa40-f4cda456faf6_360x.webp?v=1676462790%20360w,%20//skybags.co.in/cdn/shop/files/Rain_Cover_02fddbdc-bf74-4a5a-aa40-f4cda456faf6_540x.webp?v=1676462790%20540w,%20//skybags.co.in/cdn/shop/files/Rain_Cover_02fddbdc-bf74-4a5a-aa40-f4cda456faf6_720x.webp?v=1676462790%20720w",
+      "description": "Rain Cover"
+    }
   ]
+
 }

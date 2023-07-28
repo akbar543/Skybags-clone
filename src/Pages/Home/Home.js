@@ -29,7 +29,14 @@ const Home = () => {
     <Banner data={data1.slider}/>
     <Header item={`Categories`}/>
     <Banner data={data1.slider}/>
-    <Feature2/>
+<div className='feature2'>
+    {data1.features2topicksBackpacks.map((items)=>(
+        <Feature2 id={items.id} 
+              image={items.image}
+              description={items.description}
+        />
+      ))}
+      </div>
     <Banner2/>
     </>
   )
