@@ -1,5 +1,5 @@
 import React from 'react'
-import './topPick.css'
+import './TopPick.css'
 import Cards from './Cards'
 import Feature from '../Features/Feature'
 
