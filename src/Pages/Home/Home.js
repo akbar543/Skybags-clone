@@ -8,15 +8,6 @@ import TopPick from '../../Components/Home/TopPicks/TopPick.js';
 import Feature2 from '../../Components/Home/Features/Feature2.js';
 import data1 from '../../Assets/Data.json';
 import {data} from '../../API/data'
-import React from "react";
-import "./home.css";
-import Slider from "../../Components/Home/Slider/Slider.js";
-import Banner from "../../Components/Home/Banner/Banner.js";
-import Banner2 from "../../Components/Home/Banner/Banner2.js";
-import Header from "../../Components/Home/Header/Header.js";
-import TopPick from "../../Components/Home/TopPicks/TopPick.js";
-import Feature2 from "../../Components/Home/Features/Feature2.js";
-import data1 from "../../Assets/Data.json";
 
 const Home = () => {
   return (
