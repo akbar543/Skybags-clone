@@ -11,7 +11,6 @@ return (
 <Routes>
 <Route path='/' element={<Home/>}/>
 <Route path='/item' element={<Item/>}/>
-<Route path='/temp' element={<Temp/>}/>
 </Routes>
 <Footer/>
 </Router>
