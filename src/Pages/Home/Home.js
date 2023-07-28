@@ -10,7 +10,7 @@ import data1 from "../../Assets/Data.json";
 
 const Home = () => {
   return (
-    <>
+    <div className="homeContainer">
       <Slider />
       <span className="topPick">TopPicks</span>
       <Header item={`Trending What's New`} />
@@ -60,7 +60,7 @@ const Home = () => {
           />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
