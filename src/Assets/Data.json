@@ -1,4 +1,5 @@
 {
+  "instagram":"https://cdn.shopify.com/s/files/1/0696/1011/1257/files/icons8-instagram-48.png?v=1679554184",
   "slider": [
     { "id":1,
       "itemurl": "https://skybags.co.in/cdn/shop/files/Skybags_Homepage-tiles_cityscape_Luggage.jpg?v=1684215393&width=2400",
@@ -77,6 +78,17 @@
       "id": 4,
       "image": "https://skybags.co.in/cdn/shop/files/Rain_Cover_02fddbdc-bf74-4a5a-aa40-f4cda456faf6_180x.webp?v=1676462790%20180w,%20//skybags.co.in/cdn/shop/files/Rain_Cover_02fddbdc-bf74-4a5a-aa40-f4cda456faf6_360x.webp?v=1676462790%20360w,%20//skybags.co.in/cdn/shop/files/Rain_Cover_02fddbdc-bf74-4a5a-aa40-f4cda456faf6_540x.webp?v=1676462790%20540w,%20//skybags.co.in/cdn/shop/files/Rain_Cover_02fddbdc-bf74-4a5a-aa40-f4cda456faf6_720x.webp?v=1676462790%20720w",
       "description": "Rain Cover"
+    }
+  ],
+
+  "banner2topicks":[
+    {
+      "id":1,
+      "image":"https://scontent.cdninstagram.com/v/t51.29350-15/363132568_1025015271838935_929111171690466124_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=Hx-1O5sHz4YAX-6iTa7&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AfAwTw40qDe5RW59cPvkMoXyV0tnjGc_m6Z32RMNw4czEQ&oe=64C80B9D"
+    },
+    {
+      "id":2,
+      "image":"https://scontent.cdninstagram.com/v/t51.29350-15/363497233_267936395867134_6829858433532716664_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=4nX33yY7KKkAX8bq06g&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AfCl2fAR_zE6Bsqdxn1dPCXskzAasNK4zmmFxCpJ0qy9rA&oe=64C7A557"
     }
   ]
 

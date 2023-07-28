@@ -1,3 +1,11 @@
 .banner2Container{
-    border: solid blue;
+    width: 45vw;
+    height: 45vw;
+
+}
+.banner2Container>img{
+    width: 45vw;
+    height: 45vw;
+    object-fit: cover;
+    
 }

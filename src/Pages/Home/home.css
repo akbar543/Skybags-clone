@@ -19,3 +19,25 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+
+.instagramHeader{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    display: block;
+}
+
+.banner2{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}

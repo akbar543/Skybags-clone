@@ -70,8 +70,19 @@ export const data = [
                     "5. Offer is valid till 30th June 2023."},
         discount: "50%",
         color: ["Green","Periwinkle"],
-        images: [["src/Assets/Images/JERRYC55BGN1_900x.jpg","src/Assets/Images/JERRYC55BGN2_900x.jpg", "src/Assets/Images/JERRYC55BGN3_900x.jpg",  "src/Assets/Images/JERRYC55BGN4_540x.jpg", "src/Assets/Images/JERRYC55BGN5_100x.jpg", "src/Assets/Images/JERRYC55BGN6_100x.jpg", "src/Assets/Images/JERRYC55BGN7_100x.png"],
-                ["src/Assets/Images/JERRYC55DPL1_21ba6be5-5b54-4337-bcef-cadd01a40560_900x.jpg","src/Assets/Images/JERRYC55DPL2_2cb95d65-ac7b-43b0-8864-a6fb99c8cc1f_900x.jpg", "src/Assets/Images/JERRYC55DPL3_e5e8fc8b-e519-4cb0-b6d0-2beb43fea0e7_900x.jpg", "src/Assets/Images/JERRYC55DPL3_e5e8fc8b-e519-4cb0-b6d0-2beb43fea0e7_900x.jpg", "src/Assets/Images/JERRYC55DPL5_f4b3a3ba-103c-4e99-90ae-8f4ab9fe0d44_100x.jpg", "src/Assets/Images/JERRYC55DPL6_45c9ccb4-ebb5-49e4-a0f9-f52194cec67e_100x.jpg", "src/Assets/Images/JERRYC75DPL7_100x.png"]],
+        images: [["https://skybags.co.in/cdn/shop/files/JERRYC55BGN1_1024x1024.jpg?v=1682934371",
+        "https://skybags.co.in/cdn/shop/files/JERRYC55BGN2_900x.jpg?v=1682934371",
+         "https://skybags.co.in/cdn/shop/files/JERRYC55BGN3_900x.jpg?v=1682934371", 
+          "https://skybags.co.in/cdn/shop/files/JERRYC55BGN4_900x.jpg?v=1682934372", 
+          "https://skybags.co.in/cdn/shop/files/JERRYC55BGN5_100x.jpg?v=1682934371", 
+          "https://skybags.co.in/cdn/shop/files/JERRYC55BGN6_100x.jpg?v=1682934371", 
+          "https://skybags.co.in/cdn/shop/files/JERRYC55BGN7_100x.png?v=1685188355"],
+            ["https://skybags.co.in/cdn/shop/files/JERRYC55DPL1_21ba6be5-5b54-4337-bcef-cadd01a40560_900x.jpg?v=1685188355",
+            "https://skybags.co.in/cdn/shop/files/JERRYC55DPL2_2cb95d65-ac7b-43b0-8864-a6fb99c8cc1f_900x.jpg?v=1685188355",
+            "https://skybags.co.in/cdn/shop/files/JERRYC55DPL3_e5e8fc8b-e519-4cb0-b6d0-2beb43fea0e7_900x.jpg?v=1685188355",
+            "https://skybags.co.in/cdn/shop/files/JERRYC55DPL5_f4b3a3ba-103c-4e99-90ae-8f4ab9fe0d44_100x.jpg?v=1685188355",
+            "https://skybags.co.in/cdn/shop/files/JERRYC55DPL6_45c9ccb4-ebb5-49e4-a0f9-f52194cec67e_100x.jpg?v=1685188355",
+            "https://skybags.co.in/cdn/shop/files/JERRYC75DPL7_100x.png?v=1685609346"]],
         comments: {stars: 1, name:"Harsh Kumar", heading:"Never delivered, money in the sky", desc:"Ordered on may 30th , was supposed to be delivered by 4th of June, was not , now in the tracking site it shows that the RTO (return to origin) has been delivered but still haven't gotten refund.", date: "06/15/2023"}
     },
     {
@@ -599,7 +610,128 @@ export const data = [
         ["src/Assets/Images/1_da57aff2-fdd9-4967-937b-1c72d7694aa5_900x.jpg",
         "src/Assets/Images/2_aa8e7c73-7aa5-40e3-ac3c-b2fcf2c24ed2_900x.jpg",
         "src/Assets/Images/3_74f4f9e4-edfa-49dd-8df2-9551528027ae_900x.jpg",
-        "src/Assets/Images/4_69c7ba6d-cf44-4613-9122-651a13fcdae6_100x.jpg"]],
-        comments: {stars: 5, name:"A...", heading:"This price good product", desc:"Comfortble", date: "05/18/2023"}
+        "src/Assets/Images/4_69c7ba6d-cf44-4613-9122-651a13fcdae6_100x.jpg",
+        "src/Assets/Images/5_b6cb823b-9b8b-47ca-8c69-cbc0b2d40b7f_100x.jpg",
+        "src/Assets/Images/6_7d34e85d-bbab-4d31-b74e-8c4045252965_100x.jpg",
+        "src/Assets/Images/7_7795a715-98be-4aa2-85f5-752860355823_100x.jpg",
+        "src/Assets/Images/8_3af2f077-8eb6-459b-8fb5-0e110eba5b94_100x.jpg",
+        "src/Assets/Images/9_1888bf30-7d84-4612-acb0-73f5d8133854_100x.jpg",
+        "src/Assets/Images/10_97a03dae-640f-4cf3-b958-6884f733ede0_100x.jpg",
+        "src/Assets/Images/11_3ac2849d-7f3e-49d4-a018-c05a2fed2a0d_100x.jpg"],
+        []],
+        comments: {stars: 5, name:"Ricky", heading:"Great quality", desc:"Amazing quality.bag has large capacity and laptop compartment is on next level. Go for it .u won’t regret", date: "05/18/2023"}
+    },
+    {
+        id: "9",
+        category:"Backpack",
+        type: "Outdoor", //here
+        features: {features: ['Brand - Skybags',
+            'Style Name - Backpacks',
+            'Trolley - No',
+            'Gender - Unisex',
+            'AgeGroup - Adults-Unisex',
+            'Material - Polyester',
+            'Closure Type - Zip',
+            'Capacity (Litres) - 50 L',
+            'Laptop Sleeve - Yes',
+            'Rain Cover - Yes',
+            'Water Proof - No',
+            'Number of Compartments - 1',
+            'Number of Zips - 1',
+            'Warranty Type - International',
+            'Warranty Duration - 12 Months'],
+            keyFeatures: []},
+        collection: "",   
+        occasion: "",
+        title: "Skybags Sonic",
+        size: [],
+        price: "3,700.00",
+        description: {description: "For the adventure lover in you. This rucksack is designed for you to go on regular treks & hikes in plains, forests & hills. Offering you a comfortable rucksack for your outdoor trips",
+                    sizeAndDim: "Cms = Centimetres"+
+                    "Gms = Grams"+
+                    "Height: 68.5 Cms"+
+                    "Length: 33.5 Cms"+
+                    "Width: 21.5 Cms"+
+                    "Capacity: 50 Liters"+
+                    "Weight: 1130 Gms",
+                    manufactured: "VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India"+
+
+                    "Country of Origin - India",
+                
+                    materialCare: "Consider a monthly routine of a quick wipe-down or brushing. If you used water to wash your fabric pack, hang your pack to dry completely before putting it into action again. use cool water with a soft damp cloth to wipe down the interior and exterior of your pack, Never use bleach or harsh detergents on your bag. And remember to avoid any suede or leather trim on your pack as these areas could discolor if they get wet",
+                    terms: "1. Offer applicable only on self QR registration and registration through POS App."+
+                    "2. Offer applicable on all purchases through VIP brand exclusive outlets."+
+                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery."+
+                    "4. Offer is not applicable on accessories."+
+                    "5. Offer is valid till 30th June 2023."},
+        discount: "50%",
+        color: ["Green"],
+        images: [["src/Assets/Images/1_b29b5f3d-e37f-4d5d-87d6-622b7a09febf_1024x1024.jpg",
+        "src/Assets/Images/2_36e0f6f8-5352-4eaa-8545-72f459462bbf_900x.jpg",
+        "src/Assets/Images/3_ecf80215-3395-4ae6-8625-2bda22a8bec3_900x.jpg",
+        "src/Assets/Images/4_ec625456-4e0e-4f8d-9bd2-a57f9a53b121_360x.jpg",
+        "src/Assets/Images/5_c053a9aa-9922-4c9d-a2e7-7bec9d582138_100x.jpg", 
+        "src/Assets/Images/6_3c5a7fa1-1466-4b10-a908-e0bffb36de49_100x.jpg",
+        "src/Assets/Images/7_9a261447-2812-487a-87cc-6f12b90736df_100x.jpg"]],
+        comments: {stars: 5, name:"Neelima", heading:"Good product", desc:"Highly recommended.", date: "05/18/2023"}
+    },
+    {
+        id: "10",
+        category:"Backpack",
+        type: "Daypack", //here
+        features: {features: ['Brand - Skybags',
+            'Style Name - Backpacks',
+            'Trolley - No',
+            'Gender - Unisex',
+            'AgeGroup - Adults-Unisex',
+            'Material - Polyester',
+            'Closure Type - Zip',
+            'Capacity (Litres) - 17 L',
+            'Laptop Sleeve - No',
+            'Laptop Size - NA',
+            'Water Proof - No',
+            'Number of Compartments - 1',
+            'Number of Zips - 1',
+            'Warranty Type - International',
+            'Warranty Duration - 12 Months'],
+            keyFeatures: ["1 Spacious Compartment",
+            "Functional and Stlyish Design",
+            "1 Front Slip in Pocket",
+            "Top Quick Access Pocket",
+            "Cushioned Shoulder Strap",
+            "Built To Last Straps"]},
+        collection: "",   
+        occasion: "",
+        title: "Skybags Sonic",
+        size: [],
+        price: "3,700.00",
+        description: {description: "For the adventure lover in you. This rucksack is designed for you to go on regular treks & hikes in plains, forests & hills. Offering you a comfortable rucksack for your outdoor trips",
+                    sizeAndDim: "Cms = Centimetres"+
+                    "Gms = Grams"+
+                    "Height: 68.5 Cms"+
+                    "Length: 33.5 Cms"+
+                    "Width: 21.5 Cms"+
+                    "Capacity: 50 Liters"+
+                    "Weight: 1130 Gms",
+                    manufactured: "VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India"+
+
+                    "Country of Origin - India",
+                
+                    materialCare: "Consider a monthly routine of a quick wipe-down or brushing. If you used water to wash your fabric pack, hang your pack to dry completely before putting it into action again. use cool water with a soft damp cloth to wipe down the interior and exterior of your pack, Never use bleach or harsh detergents on your bag. And remember to avoid any suede or leather trim on your pack as these areas could discolor if they get wet",
+                    terms: "1. Offer applicable only on self QR registration and registration through POS App."+
+                    "2. Offer applicable on all purchases through VIP brand exclusive outlets."+
+                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery."+
+                    "4. Offer is not applicable on accessories."+
+                    "5. Offer is valid till 30th June 2023."},
+        discount: "50%",
+        color: ["Green"],
+        images: [["src/Assets/Images/1_b29b5f3d-e37f-4d5d-87d6-622b7a09febf_1024x1024.jpg",
+        "src/Assets/Images/2_36e0f6f8-5352-4eaa-8545-72f459462bbf_900x.jpg",
+        "src/Assets/Images/3_ecf80215-3395-4ae6-8625-2bda22a8bec3_900x.jpg",
+        "src/Assets/Images/4_ec625456-4e0e-4f8d-9bd2-a57f9a53b121_360x.jpg",
+        "src/Assets/Images/5_c053a9aa-9922-4c9d-a2e7-7bec9d582138_100x.jpg", 
+        "src/Assets/Images/6_3c5a7fa1-1466-4b10-a908-e0bffb36de49_100x.jpg",
+        "src/Assets/Images/7_9a261447-2812-487a-87cc-6f12b90736df_100x.jpg"]],
+        comments: {stars: 5, name:"Neelima", heading:"Good product", desc:"Highly recommended.", date: "05/18/2023"}
     },
 ]

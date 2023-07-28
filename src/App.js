@@ -4,6 +4,7 @@ import Home from './Pages/Home/Home';
 import Item from './Pages/Item/Item';
 import Footer from './Components/Footer'
 import Cart from './redux/Cart';
+import Footer from './Components/Footer/Footer'
 
 function App() {
 return (
