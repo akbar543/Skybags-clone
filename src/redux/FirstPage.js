@@ -1,9 +1,12 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
 import { addToCart } from './skybagsSlice'
+import {data} from '../API/data'
+import img from '../Assets/Images/JERRYC55BGN1_900x.jpg'
 
 const FirstPage = () => {
 
+    console.log(data[0].images[0][0]);
     // const data = [
     //     {
     //         id: 1,
@@ -34,7 +37,21 @@ const FirstPage = () => {
 
       <div>
         <div>
-            <button onClick={()=>dispatch(addToCart({
+          <div>
+            {
+              data.map((items)=>(
+                <div key={items.id}>{items.id}
+                <img src='' alt="121" />
+                <button onClick={()=>dispatch(addToCart({
+                  id:items.id,
+                  quantity:1,
+                  price:parseInt(items.price)
+
+                }))}>this is button {items.id}</button></div>
+              ))
+            }
+          </div>
+            {/* <button onClick={()=>dispatch(addToCart({
                 id:id1,
                 quantity:item1,
                 price:price1
@@ -50,7 +67,7 @@ const FirstPage = () => {
                 id:id3,
                 quantity:item3,
                 price:price3
-            }))}>Add to cart 3</button>
+            }))}>Add to cart 3</button> */}
         </div>
       </div>
     </div>
