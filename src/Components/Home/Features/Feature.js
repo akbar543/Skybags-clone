@@ -1,10 +1,11 @@
 import React from 'react'
 import './feature.css';
 
-const Feature = () => {
+const Feature = ({id,image,description}) => {
   return (
-    <div className='feactureContainer'>
-      feature
+    <div className='feactureContainer' key={id}>
+      <img src={image} alt='img'/>
+      <p>{description}</p>
     </div>
   )
 }

@@ -1,12 +1,18 @@
 import React from 'react';
-import './banner.css'
+import './banner.css';
 
-const Banner = () => {
+const Banner = ({ data }) => {
   return (
     <div className='bannerContainer'>
-        banner      
+      {data.map((items, index) => (
+        <div key={index}>
+          <img src={items.itemurl} alt='img' className='imagebanner'/>
+          <div className='descbanner'>{items.description}</div>
+          
+        </div>
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default Banner
+export default Banner;
