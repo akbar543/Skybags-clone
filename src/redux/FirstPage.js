@@ -41,7 +41,8 @@ const FirstPage = () => {
             {
               data.map((items)=>(
                 <div key={items.id}>{items.id}
-                <img src='' alt="121" />
+                <img style={{width: '300px'}} src={items.images[0][0]} alt="121" />
+                <span>{items.title.substring(0, 3)}</span>
                 <button onClick={()=>dispatch(addToCart({
                   id:items.id,
                   quantity:1,
