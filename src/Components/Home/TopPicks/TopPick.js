@@ -7,13 +7,14 @@ const arrow= <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960
 
 
 const TopPick = ({data,FeatureData}) => {
+
   if (!FeatureData || FeatureData.length === 0) {
     return (
       <div className='topPickContainer'>
-        <div className='topCards'>
+        <div className='topCards' >
         {data.map((items)=>(
           <Cards id={items.id} 
-                image={items.images[0][0]}
+                image={items.images}
                 description={items.title}
                 review={"4.5"}
                 price={items.price}
@@ -32,11 +33,11 @@ const TopPick = ({data,FeatureData}) => {
       <div className='topCards'>
       {data.map((items)=>(
           <Cards id={items.id} 
-                image={items.images[0][0]}
+                image={items.images}
                 description={items.title}
                 review={"4.5"}
                 price={items.price}
-                other={[items.images[0][0]]}
+                other={[items.images]}
           />
         ))}
       </div>
