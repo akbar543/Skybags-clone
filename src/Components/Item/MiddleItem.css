@@ -1,14 +1,15 @@
 .middle{
+    border: solid red;
     display: flex;
-    justify-content: center;
+    justify-content: centerdd;    
 }
 
-.box_1{
+.middle_box_1{
     display: flex;
 
 }
 
-.box_2{
-    display: flex;
-    flex-direction: row;
+.middle_box_2 img{
+    width: 20rem;
+    height: 20rem;
 }

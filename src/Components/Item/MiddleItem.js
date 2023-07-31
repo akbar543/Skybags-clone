@@ -11,13 +11,13 @@ import M7 from "../../Assets/Images/m7.png"
 function MiddleItem() {
   return (
     <div className='middle'>
-      <div className='box_1'>
+      <div className='middle_box_1'>
 
-        <div className='box_1_1'>
+        <div className='middle_box_1_1'>
           <img src={M1} alt='img'/>
         </div>
 
-        <div className='box_2'>
+        <div className='midddle_box_2'>
 
         <img src={M2} alt='img'/>
         <img src={M3} alt='img'/>
@@ -25,17 +25,17 @@ function MiddleItem() {
 
         </div>
 
-        <div className='box_1_3'>
+        {/* <div className='middle_box_1_3'>
         <img src={M5} alt='img'/>
         </div>
 
-        <div className='box_1_3'>
+        <div className='middle_box_1_3'>
         <img src={M6} alt='img'/>
         </div>
 
-        <div className='box_1_4'>
+        <div className='middle_box_1_4'>
         <img src={M7} alt='img'/>
-        </div>
+        </div> */}
 
       </div>
     </div>
