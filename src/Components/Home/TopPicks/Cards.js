@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import './Cards.css';
+import { useNavigate } from 'react-router-dom';
 
 const star = <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48"><path d="m233-80 65-281L80-550l288-25 112-265 112 265 288 25-218 189 65 281-247-149L233-80Z"/></svg>
 
 const Cards = ({ id, image, description, review, price, other }) => {
   const [hovered, setHovered] = useState(false);
   const [currentImage, setCurrentImage] = useState(image[0]);
+  const navigate=useNavigate();
 
   const handleMouseEnter = () => {
     setHovered(true);
@@ -19,10 +21,16 @@ const Cards = ({ id, image, description, review, price, other }) => {
     setCurrentImage(newImage);
   };
 
+  const handleredirect = () => {
+    navigate(`/cart`)
+  }
+
+
   return (
     <div className='cardsContainer' key={id}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      onClick={handleredirect}
     >
       <img src={hovered ? currentImage[2] : currentImage[0]} alt='img' />
       <p>{description}</p>
