@@ -3,19 +3,23 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import Item from './Pages/Item/Item';
 // import Footer from './Components/Footer'
-import Cart from './redux/Cart';
+import Cart from './Components/Cart/Cart';
+import Carty from './redux/Carty';
 import Footer from './Components/Footer/Footer'
+import Navbar from './Components/Navbar/Navbar'
 
 function App() {
 return (
 <div>
 <Router>
-<Routes>
-<Route path='/' element={<Home/>}/>
-<Route path='/item' element={<Item/>}/>
-<Route path='/cart' element={<Cart/>}/>
-</Routes>
-<Footer/>
+    <Navbar/>
+    <Routes>
+    <Route path='/' element={<Home/>}/>
+    <Route path='/prod/:id' element={<Item/>}/>
+    <Route path='/cart' element={<Cart/>}/>
+    <Route path='/carty' element={<Carty/>}/>
+    </Routes>
+    <Footer/>
 </Router>
 </div>
 );
