@@ -21,18 +21,21 @@ const Cards = ({ id, image, description, review, price, other }) => {
     setCurrentImage(newImage);
   };
 
-  const handleredirect = () => {
-    navigate(`/cart`)
+  const handleredirect = (id) => {
+    navigate(`/cart/${id}`)
   }
+
+  const handleImageClickdirect = () => {
+    handleredirect(id);
+  };
 
 
   return (
     <div className='cardsContainer' key={id}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      onClick={handleredirect}
     >
-      <img src={hovered ? currentImage[2] : currentImage[0]} alt='img' />
+      <img src={hovered ? currentImage[2] : currentImage[0]} alt='img' onClick={handleImageClickdirect}/>
       <p>{description}</p>
       <span className='review'> {star}{star}{star}{star}{star}{review} reviews</span>
       <span className='price'>Rs. {price}</span>

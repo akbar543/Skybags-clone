@@ -8,7 +8,7 @@
 }
 
 .cardsContainer>img{
-    width: 20Vw;
+    width: 18Vw;
     height: 20Vw;
     margin-bottom: 1rem;
     &:hover {
@@ -53,7 +53,7 @@
     cursor: pointer;
     position: relative;
     top: -29rem;
-    left: 9rem;
+    left: 7.8rem;
     text-align: center;
     padding-top: 1.5rem;
 

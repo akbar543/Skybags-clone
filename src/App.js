@@ -19,6 +19,7 @@ return (
 <Route path='/item' element={<Item/>}/>
 <Route path='/cart' element={<Cart/>}/>
 <Route path='/carty' element={<Carty/>}/>
+<Route path='/admin' element={<Admin/>}/>
 </Routes>
 <Footer/>
 </Router>
