@@ -44,7 +44,7 @@ body {
     border-radius: 4px;
   }
   
-  button {
+  .adminBtn {
     background-color: #007bff;
     color: #fff;
     padding: 10px 15px;
@@ -54,7 +54,7 @@ body {
     transition: background-color 0.2s ease-in-out;
   }
   
-  button:hover {
+  .adminBtn:hover {
     background-color: #0056b3;
   }
   
@@ -76,8 +76,8 @@ body {
     border-radius: 4px;
   }
   
-  /* Delete button styles */
-  button[data-action="delete"] {
+  /* Delete .adminBtn styles */
+  .adminBtn[data-action="delete"] {
     background-color: #dc3545;
   }
   
@@ -92,11 +92,3 @@ body {
   div[data-type="data-item"] h4 {
     margin-top: 0;
   }
-  
-  /* Media queries for responsiveness */
-  @media (max-width: 768px) {
-    form > div {
-      margin-right: 0;
-    }
-  }
-  

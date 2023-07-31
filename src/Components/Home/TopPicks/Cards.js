@@ -37,7 +37,7 @@ const Cards = ({ id, image, description, review, price, other }) => {
     >
       <img src={hovered ? currentImage[2] : currentImage[0]} alt='img' onClick={handleImageClickdirect}/>
       <p>{description}</p>
-      <span className='review'> {star}{star}{star}{star}{star}{review} reviews</span>
+      {review && <span className='review'> {star}{star}{star}{star}{star}{review} reviews</span>}
       <span className='price'>Rs. {price}</span>
       <div className='other'>
         {other.map((item, index) => (

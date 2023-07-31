@@ -156,14 +156,14 @@ const Admin = () => {
             />
           )
         )}
-        <button onClick={handleAdd}>Add Data</button>
+        <button className='adminBtn' onClick={handleAdd}>Add Data</button>
       </form>
 
       {newData.id && (
         <div>
           <h3>Details of Data ID: {newData.id}</h3>
           <pre>{JSON.stringify(newData, null, 2)}</pre>
-          <button onClick={() => handleDelete(newData.id)}>Delete Data</button>
+          <button className='adminBtn' onClick={() => handleDelete(newData.id)}>Delete Data</button>
         </div>
       )}
 
@@ -172,7 +172,7 @@ const Admin = () => {
         <div key={item.id}>
           <h4>{item.title}</h4>
           <pre>{JSON.stringify(item, null, 2)}</pre>
-          <button onClick={() => handleDelete(item.id)}>Delete Data</button>
+          <button className='adminBtn' onClick={() => handleDelete(item.id)}>Delete Data</button>
         </div>
       ))}
     </div>
