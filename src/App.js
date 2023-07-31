@@ -6,20 +6,18 @@ import Item from './Pages/Item/Item';
 import Cart from './Components/Cart/Cart';
 import Carty from './redux/Carty';
 import Footer from './Components/Footer/Footer'
-import Navbar from './Components/Navbar/Navbar'
+import Admin from './Pages/Admin/Admin.js';
 
 function App() {
 return (
 <div>
 <Router>
-    <Navbar/>
-    <Routes>
-    <Route path='/' element={<Home/>}/>
-    <Route path='/prod/:id' element={<Item/>}/>
-    <Route path='/cart' element={<Cart/>}/>
-    <Route path='/carty' element={<Carty/>}/>
-    </Routes>
-    <Footer/>
+<Routes>
+<Route path='/' element={<Home/>}/>
+<Route path='/item' element={<Item/>}/>
+<Route path='/cart' element={<Cart/>}/>
+</Routes>
+<Footer/>
 </Router>
 </div>
 );
