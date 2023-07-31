@@ -26,6 +26,8 @@
     }
 }
 
+
+
 .middle_box_3{
     display: flex;
 
@@ -35,7 +37,13 @@
     }
 }
 
+
 .middle_box_4>img{
     width: 64rem;
     height: 39.563rem;
+}
+
+.box_2{
+    display: flex;
+    flex-direction: row;
 }

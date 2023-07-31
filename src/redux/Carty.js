@@ -3,7 +3,7 @@ import FirstPage from './FirstPage'
 import CartItems from './CartItems'
 import CartPage from './CartPage'
 
-const Cart = () => {
+const Carty = () => {
   return (
     <div>
         <FirstPage/>
@@ -13,4 +13,4 @@ const Cart = () => {
   )
 }
 
-export default Cart
+export default Carty
