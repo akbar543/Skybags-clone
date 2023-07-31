@@ -30,17 +30,17 @@ const TopPick = ({data,FeatureData}) => {
   }
   return (
     <div className='topPickContainer'>
-      <div className='topCards'>
-      {data.map((items)=>(
+      <div className='topCards' >
+        {data.map((items)=>(
           <Cards id={items.id} 
                 image={items.images}
                 description={items.title}
                 review={"4.5"}
                 price={items.price}
-                other={[items.images]}
+                other={items.images}
           />
         ))}
-      </div>
+        </div>
 
     <div className='topFeatures'>
       {FeatureData.map((items)=>(
