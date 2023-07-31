@@ -6,7 +6,7 @@ const CartPage = () => {
 
     const dispatch = useDispatch()
 
-    const products = useSelector((state)=>state.skybagsReducer.products)
+    const products = useSelector((state)=>state.skybags.products)
 
     const[totalPrice, setTotalPrice]=useState("")
 
@@ -41,7 +41,7 @@ const CartPage = () => {
             }
             <div>
               <h2>Subtotal</h2>
-              <p>Total: {totalPrice}</p>
+              <p>Total: {products.length > 0 ? totalPrice : 0}</p>
             </div>
             {/* <h2>Total Price: </h2><span>{price}</span> */}
         </div>
