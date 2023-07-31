@@ -1003,9 +1003,9 @@ export const data = [
             "Rain Cover"]},
         collection: "Sports",   
         occasion: "",
-        title: "Skybags Zuke",
+        title: "SKYBAGS CHASE",
         size: [],
-        price: "5,100.00",
+        price: "3,600.00",
         description: {description: "A super sleek, sporty and casual 32L backpack FIFA backpack for all the football fans. Ideal for college student or a day outings. Big enough to carry all your essentials. Sleek enough to carry it with ease",
                     sizeAndDim: "Cms = Centimetres"+
                     "Gms = Grams"+
@@ -1116,7 +1116,7 @@ export const data = [
             'Number of Compartments - NA',
             'Number of Zips - 1',
             'Side Pockets - 1',
-            'Number of Wheels - Carry Duffle',
+            'Number of Wheels - 2 Wheel',
             'Warranty Type - International',
             'Warranty Duration - 12 Months'],
             keyFeatures: ["Double Wheels",
@@ -1167,7 +1167,7 @@ export const data = [
     {
         id: "17",
         category:"Trolley Duffels",
-        type: "Carry Duffles", 
+        type: "Trolley", 
         features: {features: ['Brand - Skybags',
             'Style Name - Duffle',
             'Trolley - Yes',
@@ -1175,58 +1175,68 @@ export const data = [
             'AgeGroup - Adults-Unisex',
             'Material - Polyester',
             'Closure Type - Zip',
-            'Capacity (Litres) - 50 L',
-            'Laptop Sleeve - No',
+            'Capacity (Large) - 79',
+            'Capacity (Medium) - 54',
             'Water Proof - No',
             'Number of Compartments - NA',
             'Number of Zips - 1',
             'Side Pockets - 1',
-            'Number of Wheels - Carry Duffle',
+            'Number of Wheels - 2 Wheel',
             'Warranty Type - International',
-            'Warranty Duration - 12 Months'],
+            'Warranty Duration - 3 year'],
             keyFeatures: ["Double Wheels",
             "Adjustable Shoulder straps",
+            "Two Stage Push Button Trolley",
+            "Quick Access Pocket",
             "Spacious main compartment",
-            "Shoe Compartment"]},
+            "3 way carry system"]},
         collection: "",   
         occasion: "",
         title: "SKYBAGS HUSTLE DFT",
-        size: [],
+        size: ["Large", "Medium"],
         price: "6,660.00",
-        description: {description: "A perfect Gym partner",
+        description: {description: "A perfectly crafted bag to compliment  your style",
                     sizeAndDim: "Cms = Centimetres"+
                     "Gms = Grams"+
-                    "Height: 46.5 Cms"+
-                    "Length: 32.5 Cms"+
-                    "Width: 22.5 Cms"+
-                    "Capacity: 35 Liters"+
-                    "Weight: 510 Gms",
-                    manufactured: "VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India"+
-
-                    "Country of Origin - India",
+                    "Medium-"+
+                    "Height: 55 Cms"+
+                   "Length: 29 Cms"+
+                    "Width: 32 Cms"+
+                    "Capacity: 50 Liters"+
+                    "Weight: 1815 Gms"+
+                    
+                    "Large-"+
+                    "Height: 65 Cms"+
+                    "Length: 35 Cms"+
+                    "Width: 27 Cms"+
+                    "Capacity: 61 Liters"+
+                    "Weight: 1999 Gms",
+                    manufactured: "VIP Industries Ltd. DGP House, Prabhadevi Mumbai"+
+                    
+                    "Country of Origin - Bangladesh",
                 
-                    materialCare: "Consider a monthly routine of a quick wipe-down or brushing. If you used water to wash your fabric pack, hang your pack to dry completely before putting it into action again. use cool water with a soft damp cloth to wipe down the interior and exterior of your pack, Never use bleach or harsh detergents on your bag. And remember to avoid any suede or leather trim on your pack as these areas could discolor if they get wet",
+                    materialCare: "Ensure that your duffle is empty and place all of its removable liners and pockets into your bowl. Then, vacuum out crumbs and dirt from the suitcase. Wipe with clean & dry cloth",
                     terms: "1. Offer applicable only on self QR registration and registration through POS App."+
                     "2. Offer applicable on all purchases through VIP brand exclusive outlets."+
                     "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery."+
                     "4. Offer is not applicable on accessories."+
                     "5. Offer is valid till 30th June 2023."},
         discount: "50%",
-        color: ["Black", "Blue"],
-        images: [["https://skybags.co.in/cdn/shop/products/DFACTHLBL_1_9fcd22e1-8c7b-4f90-ad85-8c6a8c3c6b2c_900x.jpg?v=1681116631",
-        "https://skybags.co.in/cdn/shop/products/DFACTHLBL_2_09e8e96b-9591-4331-a596-6d6fc97f8a58_900x.jpg?v=1681116632",
-        "https://skybags.co.in/cdn/shop/products/DFACTHLBL_3_18daca6f-a122-469b-add6-a74ab3dd87db_900x.jpg?v=1681116632",
-        "https://skybags.co.in/cdn/shop/products/DFACTHLBL_4_b1234e45-ed25-4db8-a574-d4c046d3efcc_900x.jpg?v=1681116632",
-        "https://skybags.co.in/cdn/shop/products/DFACTHLBL_5_825c0651-86b9-4594-893e-d119a85692f5_100x.jpg?v=1681116632", 
-        "https://skybags.co.in/cdn/shop/products/DFACTHLBL_6_5bb947c1-23c8-4074-8d03-e265695f0808_100x.jpg?v=1681116632",
-        "https://skybags.co.in/cdn/shop/products/DFACTHLBL_7_03765e84-e4fd-4508-8024-83975a004de5_100x.jpg?v=1681116632"],
-        ["https://skybags.co.in/cdn/shop/files/DFACTHBLU_1_509e69e8-cac8-4247-9c56-9ff4a1abe816_900x.jpg?v=1683090243",
-        "https://skybags.co.in/cdn/shop/files/DFACTHBLU_2_22e360b3-7b5d-453f-966e-855e4594e907_900x.jpg?v=1683090242",
-        "https://skybags.co.in/cdn/shop/files/DFACTHBLU_3_8226c24d-3fef-4335-a733-15bd4d01ab85_900x.jpg?v=1683090242",
-        "https://skybags.co.in/cdn/shop/files/DFACTHBLU_4_ad93b4a6-43d8-4849-a1b0-564d7d697c9a_900x.jpg?v=1683090242",
-        "https://skybags.co.in/cdn/shop/files/DFACTHBLU_5_093336ca-3c27-4980-aede-12867b4ca69a_100x.jpg?v=1683090242",
-        "https://skybags.co.in/cdn/shop/files/DFACTHBLU_6_3511e4ce-f630-4ddf-9380-9b0d05c33265_100x.jpg?v=1683090242",
-        "https://skybags.co.in/cdn/shop/files/DFACTHBLU_7_7764a4ae-21bc-4b7a-9bc0-014e988fabaa_100x.jpg?v=1683090243"]],
-        comments: {stars: 5, name:"Sashi", heading:"Value for money", desc:"Good at great price", date: "05/20/2023"}
+        color: ["Light Green", "Orange"],
+        images: [["https://skybags.co.in/cdn/shop/products/DFTHUS65GRN_1_febf79d9-7e8b-4e9a-9830-7c0943c38683_1024x1024.webp?v=1674106776",
+        "https://skybags.co.in/cdn/shop/products/DFTHUS65GRN_2_d2ddb367-5f07-4f7a-bb50-a48be6a838f0_900x.webp?v=1674106775",
+        "https://skybags.co.in/cdn/shop/products/DFTHUS65GRN_3_b4a99e4f-6b75-48d7-8af8-9c7ed2b4d3af_900x.webp?v=1674106777",
+        "https://skybags.co.in/cdn/shop/products/DFTHUS65GRN_4_bedb09e3-c818-4ae1-a69a-9302a24e64b2_900x.webp?v=1674106776",
+        "https://skybags.co.in/cdn/shop/products/DFTHUS65GRN_5_98a23e1b-86c0-4262-987c-e5c62d523f2d_100x.webp?v=1674106775", 
+        "https://skybags.co.in/cdn/shop/products/DFTHUS65GRN_6_b3c692d6-211d-4c58-885f-a6bf51c21605_100x.webp?v=1674106776",
+        "https://skybags.co.in/cdn/shop/products/DFTHUS65GRN_6_Icon_16191df0-4d61-43ac-bc93-b8c26c27a965_100x.webp?v=1674106775"],
+        ["https://skybags.co.in/cdn/shop/files/DFTHUS65ONG_1_900x.webp?v=1683086804",
+        "https://skybags.co.in/cdn/shop/files/DFTHUS65ONG_2_900x.webp?v=1683086804",
+        "https://skybags.co.in/cdn/shop/files/DFTHUS65ONG_3_900x.webp?v=1683086803",
+        "https://skybags.co.in/cdn/shop/files/DFTHUS65ONG_4_900x.webp?v=1683086803",
+        "https://skybags.co.in/cdn/shop/files/DFTHUS65ONG_5_100x.webp?v=1683086803",
+        "https://skybags.co.in/cdn/shop/files/DFTHUS65ONG_6_100x.webp?v=1683086804",
+        "https://skybags.co.in/cdn/shop/files/DFTHUS65ONG_6_Icon_a852c571-0db3-41f3-80b9-e91fcc3329a0_100x.webp?v=1683086803"]],
+        comments: {stars: 5, name:"Widisha", heading:"It is very beautiful", desc:"It is very beautiful", date: "05/18/2023"}
     },
 ]
