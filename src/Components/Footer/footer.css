@@ -1,11 +1,11 @@
-.footerCon{
+.footerCon {
     background-color: rgb(29, 28, 28);
     margin-top: 4rem;
 }
 
-.footerContainer{
-   display: grid;
-    grid-template-columns: repeat(5,1fr);
+.footerCon .footerContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     flex-wrap: wrap;
     justify-content: space-between;
     color: white;
@@ -13,29 +13,31 @@
     padding-top: 5rem;
     height: 55vh;
 }
-.footertop>p{
+
+.footerCon .footertop > p {
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 1rem;
 }
-ul{
+
+.footerCon ul {
     list-style: none;
     padding: 0;
     margin: 0;
     font-size: 0.9rem;
 }
-li{
+
+.footerCon li {
     margin: 0.5rem;
     font-weight: 300;
-    
 }
 
-a{
+.footerCon a {
     text-decoration: none;
     color: white;
 }
 
-.copyright{
+.footerCon .copyright {
     height: 15vh;
     color: white;
     align-items: center;
@@ -43,5 +45,3 @@ a{
     font-size: 0.8rem;
     padding-top: 1.5rem;
 }
-
-
