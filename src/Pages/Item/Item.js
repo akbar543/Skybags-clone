@@ -6,9 +6,9 @@ import BottomItem from '../../Components/Item/BottomItem'
 function Item() {
   return (
     <div>
-      <TopItem></TopItem>
-      <MiddleItem></MiddleItem>
-      <BottomItem></BottomItem>
+      <TopItem/>
+      <MiddleItem/>
+      <BottomItem/>
     </div>
   )
 }
