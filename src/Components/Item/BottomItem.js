@@ -14,9 +14,80 @@ function BottomItem() {
             <h2>Customer Review</h2>
 
           <div className='bottom_box_1_1'>
-            <div className='bottom_box_1_1_1'>one</div>
-            <div className='bottom_box_1_1_2'>two</div>
-            <div className='bottom_box_1_1_3'><button>Write review</button></div>
+
+            <div className='bottom_box_1_1_1'>
+              <div className='review_1'>
+                {star}{star}{star}{star}{star}
+                <span ><a className='judge' href='https://judge.me/reviews/skybags-webstore.myshopify.com'>5.00 out of 5</a></span>
+                <div>Based on 50 reviews</div>
+                <a className='judge_o' href='https://judge.me/trust'>collected by Judge.me</a>
+              </div>
+            </div>
+
+            <div className='bottom_box_1_1_2'>
+
+              <div className='review1'>
+                <div className='review11'>                 
+                  <span className='review111on'>{star}</span>
+                  <span className='review111on'>{star}</span>
+                  <span className='review111on'>{star}</span>
+                  <span className='review111on'>{star}</span>
+                  <span className='review111on'>{star}</span>
+                </div>
+                <div className='review12'></div>
+                <div className='review13'>50</div>
+              </div>
+              <div className='review1'>
+              <div className='review11'>                 
+                  <span className='review111on'>{star}</span>
+                  <span className='review111on'>{star}</span>
+                  <span className='review111on'>{star}</span>
+                  <span className='review111on'>{star}</span>
+                  <span className='review111on'>{star}</span>
+                </div>
+                <div className='review12'></div>
+                <div className='review13'> 0</div>
+              </div>
+
+              <div className='review1'>
+              <div className='review11'>                 
+                  <span className='review111on'>{star}</span>
+                  <span className='review111on'>{star}</span>
+                  <span className='review111on'>{star}</span>
+                  <span className='review111on'>{star}</span>
+                  <span className='review111on'>{star}</span>
+                </div>
+                <div className='review12'></div>
+                <div className='review13'> 0</div>
+              </div>
+
+              <div className='review1'>
+              <div className='review11'>                 
+                  <span className='review111on'>{star}</span>
+                  <span className='review111on'>{star}</span>
+                  <span className='review111on'>{star}</span>
+                  <span className='review111on'>{star}</span>
+                  <span className='review111on'>{star}</span>
+                </div>
+                <div className='review12'></div>
+                <div className='review13'> 0</div>
+              </div>
+              
+              <div className='review1'>
+              <div className='review11'>                 
+                  <span className='review111on'>{star}</span>
+                  <span className='review111on'>{star}</span>
+                  <span className='review111on'>{star}</span>
+                  <span className='review111on'>{star}</span>
+                  <span className='review111on'>{star}</span>
+                </div>
+                <div className='review12'></div>
+                <div className='review13'> 0</div>
+              </div>
+            </div>
+
+           <div className='bottom_box_1_1_3'><button>Write review</button></div>
+          
           </div>
 
 
