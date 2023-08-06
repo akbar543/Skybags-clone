@@ -121,31 +121,31 @@ export const data = [
         size: ["Cabin","Medium","Large"],
         price: "11800.00",
         description: {description: "The all new Skybags SWIRL is here to slay.. in style! One more trendy and stylish addition to our ever trendiest brand Skybags. A perfect travel gear for everyone who wants to flaunt their all kinds of Nomad look. Swirl not only has a distinguished design, but is also extra spacious coupled with the best in class features! Fully loaded luggage with shoe pouch, smooth dual wheels, TSA lock, anti-theft zipper, superior silver trolley & the ever so visually delightful design, will ensure your bag gets a 2nd look. ",
-                    sizeAndDim: "Cms = Centimetres"+
-                    "Kgs = Kilograms"+
-                    "Cabin-"+
-                    "Height: 58.5 Cms"+
-                    "Length: 40 Cms"+
-                    "Width: 26 Cms"+
-                    "Capacity: 61 Liters"+
-                    "Weight: 3.5 Kgs"+
+                    sizeAndDim: ["Cms = Centimetres",
+                    "Kgs = Kilograms",
+                    "Cabin-",
+                    "Height: 58.5 Cms",
+                    "Length: 40 Cms",
+                    "Width: 26 Cms",
+                    "Capacity: 61 Liters",
+                    "Weight: 3.5 Kgs",
 
-                    "Medium-"+
-                    "Height: 71 Cms"+
-                    "Length: 45 Cms"+
-                    "Width: 33 Cms"+
-                    "Capacity: 106 Liters"+
-                    "Weight: 4.3 Kgs"+
+                    "Medium-",
+                    "Height: 71 Cms",
+                    "Length: 45 Cms",
+                    "Width: 33 Cms",
+                    "Capacity: 106 Liters",
+                    "Weight: 4.3 Kgs",
 
-                    "Large-"+
-                    "Height: 82 Cms"+
-                    "Length: 50 Cms"+
-                    "Width: 35 Cms"+
-                    "Capacity: 144 Liters"+
-                    "Weight: 4.7 Kgs",
-                    manufactured: "VIP Industries Ltd. DGP House,Prabhadevi, Mumbai 400025"+
+                    "Large-",
+                    "Height: 82 Cms",
+                    "Length: 50 Cms",
+                    "Width: 35 Cms",
+                    "Capacity: 144 Liters",
+                    "Weight: 4.7 Kgs"],
+                    manufactured: ["VIP Industries Ltd. DGP House,Prabhadevi, Mumbai 400025",
                     
-                    "Country of Origin - Bangladesh",
+                    "Country of Origin - Bangladesh"],
                 
                     materialCare: "Ensure that your luggage is empty and place all of its removable liners and pockets and store them. Then, vacuum out crumbs and dirt from the suitcase. Wipe with clean & dry cloth",
                     terms: "1. Offer applicable only on self QR registration and registration through POS App."+

@@ -86,7 +86,7 @@ function TopItem() {
           </div>
 
           <div className='bag_details'>
-            <div className='bag_price'>M.R.P. Rs. {arr.price}</div>
+            <div className='bag_price'>M.R.P. Rs. {arr.price*1.5}</div>
             <div className='sale_price'>Rs. {arr.price}<span className='sale_text'>Inclusive of all taxes</span></div>
             <div  className='product_policies' >Shipping<span className='product_policy_text'>calculated at checkout.</span></div>
           </div>
@@ -96,8 +96,14 @@ function TopItem() {
           <div className='bag_color'>
             <div><label>color - {arr.color[0]}</label></div>
             <div className='bag__img_color'>
-              <img src={arr.images[0][0]}/>
-              <img src={arr.images[1][0]}/>
+              {
+                arr.images.map((items)=>(
+                  <img src={items[0]}/>
+                  
+                  ))
+                }
+                {/* <img src={arr.images[0][0]}/>
+              <img src={arr.images[1][0]}/> */}
             </div>
           </div>
 
@@ -149,25 +155,12 @@ function TopItem() {
                 <div  className='faq_features_heading'>FEATURES</div>
                 <div className='feature_list'>
                   <ul>
-                    <li>{arr.features.features[0]}</li>
-                    <li>{arr.features.features[1]}</li>
-                    <li>{arr.features.features[2]}</li>
-                    <li>{arr.features.features[3]}</li>
-                    <li>{arr.features.features[4]}</li>
-                    <li>{arr.features.features[5]}</li>
-                    <li>{arr.features.features[6]}</li>
-                    <li>{arr.features.features[7]}</li>
-                    <li>{arr.features.features[8]}</li>
-                    <li>{arr.features.features[9]}</li>
-                    <li>{arr.features.features[10]}</li>
-                    <li>{arr.features.features[11]}</li>
-                    <li>{arr.features.features[12]}</li>
-                    <li>{arr.features.features[13]}</li>
-                    <li>{arr.features.features[14]}</li>
-                    <li>{arr.features.features[15]}</li>
-                    <li>{arr.features.features[16]}</li>
-                    <li>{arr.features.features[17]}</li>
-                    <li>{arr.features.features[18]}</li>
+                    {
+                      arr.features.features.map((items)=>(
+                        <li>{items}</li>
+
+                      ))
+                    }
                   </ul>
                 </div>
               </div>
@@ -176,13 +169,11 @@ function TopItem() {
                 <div className='faq_features_heading'>KEY FEATURES</div>
                 <div className='feature_list'>
                   <ul>
-                    <li>{arr.features.keyFeatures[0]}</li>
-                    <li>{arr.features.keyFeatures[1]}</li>
-                    <li>{arr.features.keyFeatures[2]}</li>
-                    <li>{arr.features.keyFeatures[3]}</li>
-                    <li>{arr.features.keyFeatures[4]}</li>
-                    <li>{arr.features.keyFeatures[5]}</li>
-                    <li>{arr.features.keyFeatures[6]}</li>
+                    {
+                      arr.features.keyFeatures.map((items)=>(
+                        <li>{items}</li>  
+                      ))
+                    }
                   </ul>
                 </div>
               </div>
@@ -196,7 +187,11 @@ function TopItem() {
               <span className='faq_downarrow'><img src={down_arrow} alt='arrow'/></span>
             </div>
             <div className='faq_content'>
-              <p>{arr.description.sizeAndDim.split('+')}</p>
+              {
+                arr.description.sizeAndDim.map((items)=>(
+                  <p>{items}</p>
+                ))
+              }
             </div>
           </div>
 
@@ -277,11 +272,11 @@ function TopItem() {
             <div className='faq_content'>
                 <div className='feature_list'>
                   <ul>
-                    <li>{arr.description.terms.substring(0,82)}</li>
-                    <li>{arr.description.terms.substring(82,155)}</li>
-                    <li>{arr.description.terms.substring(155,242)}</li>
-                    <li>{arr.description.terms.substring(242,284)}</li>
-                    <li>{arr.description.terms.substring(284)}</li>
+                    <li>{arr.description.terms[0]}</li>
+                    <li>{arr.description.terms[1]}</li>
+                    <li>{arr.description.terms[2]}</li>
+                    <li>{arr.description.terms[3]}</li>
+                    <li>{arr.description.terms[4]}</li>
                   </ul>
                 </div>
               </div>
