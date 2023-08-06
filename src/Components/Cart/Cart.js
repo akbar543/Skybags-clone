@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { decrementQuantity, incrementQuantity } from '../../redux/skybagsSlice'
 import { styled } from 'styled-components'
+import { data } from '../../API/data'
 
 
 const Cart = () => {
@@ -26,11 +27,13 @@ const Cart = () => {
     {
       products.map((items)=>(
       <div className="card">
-        <div className="img"><img style={{width: '300px'}} src={items.images[0][0]} alt=''/></div>
+        <div className="img"><img style={{width: '300px'}} src={items.img} alt=''/></div>
         <div className="title">{items.title}</div>
         <div className="color">{items.color}</div>
+        <h3 style={{color:'black'}}>{items.title}</h3>
         <div className="bottom">
             <div>
+              <span>{items.id}</span>
                 <button onClick={()=>dispatch(decrementQuantity(items.id))}>-</button>
                 <span>{items.quantity}</span>
                 <button onClick={()=>dispatch(incrementQuantity(items.id))}>+</button>
@@ -41,6 +44,11 @@ const Cart = () => {
 
     ))
     }
+            <div >
+              <h2>Subtotal</h2>
+              <p>Total: {products.length > 0 ? totalPrice : 0}</p>
+              <button>CHECKOUT</button>
+            </div>
     </Wrap>
   )
 }

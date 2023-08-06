@@ -15,6 +15,10 @@ import share_icon from "../../Assets/Images/share_icon.png"
 import remove_icon from "../../Assets/Images/remove_icon.png"
 import add_icon from "../../Assets/Images/add_icon.png"
 import pin_code_icon from "../../Assets/Images/pin_code_img.png"
+import {data} from '../../API/data'
+import { useParams } from 'react-router-dom';
+import { useDispatch } from 'react-redux'
+import { addToCart } from '../../redux/skybagsSlice'
 
 function toggleBlock(event) {
   if (event.target.nextElementSibling.style.display=="none") {
@@ -27,6 +31,13 @@ function toggleBlock(event) {
 }
 
 function TopItem() {
+  const params = useParams();
+  const mId= (params.id) - 1;
+  const arr = data[mId];
+  console.log(arr.price);
+  
+  const dispatch = useDispatch();
+
   return (
     <div className='top'>
       <nav className='top1'>
@@ -36,7 +47,7 @@ function TopItem() {
       <span class="breadcrumb__divider" aria-hidden="true">/</span>
       <a href="/collections/top-backpack" title="">Top Backpack</a>
       <span class="breadcrumb__divider" aria-hidden="true">/</span>
-      SKYBAGS BOHO "03 BACKPACK"
+      {arr.title} "{arr.category}"
       </nav>
       <div className='top2'>
 
@@ -44,19 +55,25 @@ function TopItem() {
           <div className='product_images'>
           <div className='image_up_arrow'><img src={up_arrow}/></div>
             <div className='img_scroll'>
-              <div className='product_img'><img src={img1}/></div>
-              <div className='product_img'><img src={img2}/></div>
+              <div className='product_img'><img src={arr.images[0][0]}/></div>
+              <div className='product_img'><img src={arr.images[0][1]}/></div>
+              <div className='product_img'><img src={arr.images[0][2]}/></div>
+              <div className='product_img'><img src={arr.images[0][3]}/></div>
+              <div className='product_img'><img src={arr.images[0][4]}/></div>
+              <div className='product_img'><img src={arr.images[0][5]}/></div>
+              <div className='product_img'><img src={arr.images[0][6]}/></div>
+              {/* <div className='product_img'><img src={img2}/></div>
               <div className='product_img'><img src={img3}/></div>
               <div className='product_img'><img src={img4}/></div>
               <div className='product_img'><img src={img5}/></div>
               <div className='product_img'><img src={img6}/></div>
               <div className='product_img'><img src={img7}/></div>
-              <div className='product_img'><img src={img8}/></div>
+              <div className='product_img'><img src={img8}/></div> */}
             </div>
             <div className='image_down_arrow'><img src={down_arrow}/></div>
           </div>
           <div className='current_image'>
-            <img src={img0} alt='img'/>
+            <img src={arr.images[0][0]} alt='img'/>
             <div className='share_icon'><img src={share_icon} alt='share'/></div>
           </div>
         </div>
@@ -64,23 +81,23 @@ function TopItem() {
         <div className='top22'>
 
           <div className='bag_name'>
-            <h1>SKYBAGS BOHO</h1>
-            <span>03 BACKPACK</span>
+            <h1>{arr.title}</h1>
+            <span>{arr.category}</span>
           </div>
 
           <div className='bag_details'>
-            <div className='bag_price'>M.R.P. Rs. 2,700.00</div>
-            <div className='sale_price'>Rs. 1,620.00<span className='sale_text'>Inclusive of all taxes</span></div>
+            <div className='bag_price'>M.R.P. Rs. {arr.price}</div>
+            <div className='sale_price'>Rs. {arr.price}<span className='sale_text'>Inclusive of all taxes</span></div>
             <div  className='product_policies' >Shipping<span className='product_policy_text'>calculated at checkout.</span></div>
           </div>
           
           < hr className='bag_detail_hrline'/>
 
           <div className='bag_color'>
-            <div><label>color - Grey</label></div>
+            <div><label>color - {arr.color[0]}</label></div>
             <div className='bag__img_color'>
-              <img src={img1}/>
-              <img src={img1}/>
+              <img src={arr.images[0][0]}/>
+              <img src={arr.images[1][0]}/>
             </div>
           </div>
 
@@ -108,7 +125,14 @@ function TopItem() {
           </div>
 
           <div className='add_to_cart'>
-            <button className='addbutton'>Add to cart</button>
+            <button className='addbutton' onClick={()=>dispatch(addToCart({
+                  id:arr.id,
+                  title:arr.title,
+                  img:arr.images[0][0],
+                  quantity:1,
+                  price:parseInt(arr.price)
+
+                }))}>Add to cart</button>
             <button className='buybutton'>Buy Now</button>
           </div>
 
@@ -120,25 +144,30 @@ function TopItem() {
             <span className='faq_downarrow'><img src={down_arrow} alt='arrow'/></span>
             </div>
             <div className='faq_content'>
-              <div className='faq_description'>Life opens up a whole new world of possibilities & Opportunities for the College Student. The drive for a new career path and freedom to socialise brings with it new motivations. The College range of Backpacks from Skybags comes with dollops of contemporary styling and attractive features to  complement the footloose and carefree mindset of the young adult</div>
+              <div className='faq_description'>{arr.description.description}</div>
               <div className='faq_features'>
                 <div  className='faq_features_heading'>FEATURES</div>
                 <div className='feature_list'>
                   <ul>
-                    <li>Brand - Skybags</li>
-                    <li>Style Name - Backpacks</li>
-                    <li>Trolley - No</li>
-                    <li>Gender - Unisex</li>
-                    <li>AgeGroup - Adults-Unisex</li>
-                    <li>Material - Polyester</li>
-                    <li>Closure Type - Zip</li>
-                    <li>Capacity (Litres) - 18 L</li>
-                    <li>Laptop Sleeve - No</li>
-                    <li>Water Proof - No</li>
-                    <li>Number of Compartments - 1</li>
-                    <li>Number of Zips - 1</li>
-                    <li>Warranty Type - International</li>
-                    <li>Warranty Duration - 12 Months</li>
+                    <li>{arr.features.features[0]}</li>
+                    <li>{arr.features.features[1]}</li>
+                    <li>{arr.features.features[2]}</li>
+                    <li>{arr.features.features[3]}</li>
+                    <li>{arr.features.features[4]}</li>
+                    <li>{arr.features.features[5]}</li>
+                    <li>{arr.features.features[6]}</li>
+                    <li>{arr.features.features[7]}</li>
+                    <li>{arr.features.features[8]}</li>
+                    <li>{arr.features.features[9]}</li>
+                    <li>{arr.features.features[10]}</li>
+                    <li>{arr.features.features[11]}</li>
+                    <li>{arr.features.features[12]}</li>
+                    <li>{arr.features.features[13]}</li>
+                    <li>{arr.features.features[14]}</li>
+                    <li>{arr.features.features[15]}</li>
+                    <li>{arr.features.features[16]}</li>
+                    <li>{arr.features.features[17]}</li>
+                    <li>{arr.features.features[18]}</li>
                   </ul>
                 </div>
               </div>
@@ -147,12 +176,13 @@ function TopItem() {
                 <div className='faq_features_heading'>KEY FEATURES</div>
                 <div className='feature_list'>
                   <ul>
-                    <li>Combination of functional & safety features in stylish design.</li>
-                    <li>1 Main Compartment</li>
-                    <li>1 Slip In Pocket</li>
-                    <li>Elastic file compartment with 3 MM foam padding</li>
-                    <li>Water Bottle Pocket Inside</li>
-                    <li>Quick Access Pocket</li>
+                    <li>{arr.features.keyFeatures[0]}</li>
+                    <li>{arr.features.keyFeatures[1]}</li>
+                    <li>{arr.features.keyFeatures[2]}</li>
+                    <li>{arr.features.keyFeatures[3]}</li>
+                    <li>{arr.features.keyFeatures[4]}</li>
+                    <li>{arr.features.keyFeatures[5]}</li>
+                    <li>{arr.features.keyFeatures[6]}</li>
                   </ul>
                 </div>
               </div>
@@ -166,14 +196,7 @@ function TopItem() {
               <span className='faq_downarrow'><img src={down_arrow} alt='arrow'/></span>
             </div>
             <div className='faq_content'>
-              <p>Cms = Centimetres</p>
-              <p>Gms = Grams</p>
-              <p></p>
-              <p>Height: 46 Cms</p>
-              <p>Length: 26 Cms</p>
-              <p>Width: 15 Cms</p>
-              <p>Capacity: 18 Liters</p>
-              <p>Weight: 400 Gms</p>
+              <p>{arr.description.sizeAndDim.split('+')}</p>
             </div>
           </div>
 
@@ -183,10 +206,7 @@ function TopItem() {
               <span className='faq_downarrow'><img src={down_arrow} alt='arrow'/></span>
             </div>
             <div className='faq_content'>
-              <p>VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road,</p>
-              <p>Prabhadevi, Mumbai 400025. India</p>
-
-              <p>Country of Origin - China</p>
+              <p>{arr.description.manufactured}</p>
             </div>
           </div>
 
@@ -196,7 +216,7 @@ function TopItem() {
               <span className='faq_downarrow'><img src={down_arrow} alt='arrow'/></span>
             </div>
             <div className='faq_content'>
-              <p>Consider a monthly routine of a quick wipe-down or brushing. If you used water to wash your fabric pack, hang your pack to dry completely before putting it into action again. use cool water with a soft damp cloth to wipe down the interior and exterior of your pack, Never use bleach or harsh detergents on your bag. And remember to avoid any suede or leather trim on your pack as these areas could discolor if they get wet.</p>
+              <p>{arr.description.materialCare}</p>
             </div>
           </div>
 
@@ -257,11 +277,11 @@ function TopItem() {
             <div className='faq_content'>
                 <div className='feature_list'>
                   <ul>
-                    <li>Offer applicable only on self QR registration and registration through POS App.</li>
-                    <li>Offer applicable on all purchases through VIP brand exclusive outlets.</li>
-                    <li>Offer is applicable for the registrations made within 30 days of invoicing/delivery.</li>
-                    <li>Offer is not applicable on accessories.</li>
-                    <li>Offer is valid till 30th June 2023.</li>
+                    <li>{arr.description.terms.substring(0,82)}</li>
+                    <li>{arr.description.terms.substring(82,155)}</li>
+                    <li>{arr.description.terms.substring(155,242)}</li>
+                    <li>{arr.description.terms.substring(242,284)}</li>
+                    <li>{arr.description.terms.substring(284)}</li>
                   </ul>
                 </div>
               </div>
