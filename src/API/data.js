@@ -36,38 +36,38 @@ export const data = [
         size: ["Cabin","Medium","Large"],
         price: "10200.00",
         description: {description: "Like sober & attractive strokes on a canvas, this luggage masterpiece will inspire you to go places & Chase The World! This strong polycarbonate shell design with organised interior, smooth dual wheels, flushed TSA lock, Reverse zipper, wet pouch for toiletries, push button trolley & the ever so visually delightful design, will ensure your bag gets a 2nd look. ",
-                    sizeAndDim: "Cms = Centimetres"+
-                    "Kgs = Kilograms"+
-                    "Cabin-"+
-                    "Height: 55 Cms"+
-                    "Length: 38 Cms"+
-                    "Width: 21 Cms"+
-                    "Capacity: 44 Liters"+
-                    "Weight: 2.6 Kgs"+
+                    sizeAndDim: ["Cms = Centimetres",
+                    "Kgs = Kilograms",
+                    "Cabin-",
+                    "Height: 55 Cms",
+                    "Length: 38 Cms",
+                    "Width: 21 Cms",
+                    "Capacity: 44 Liters",
+                    "Weight: 2.6 Kgs",
                     
-                    "Medium-"+
-                    "Height: 65 Cms"+
-                    "Length: 45 Cms"+
-                    "Width: 27 Cms"+
-                    "Capacity: 79 Liters"+
-                    "Weight: 3.5 Kgs"+
+                    "Medium-",
+                    "Height: 65 Cms",
+                    "Length: 45 Cms",
+                    "Width: 27 Cms",
+                    "Capacity: 79 Liters",
+                    "Weight: 3.5 Kgs",
                     
-                    "Large-"+
-                    "Height: 76 Cms"+
-                    "Length: 50 Cms"+
-                    "Width: 32 Cms"+
-                    "Capacity: 122 Liters"+
-                    "Weight: 4.3 Kgs",
+                    "Large-",
+                    "Height: 76 Cms",
+                    "Length: 50 Cms",
+                    "Width: 32 Cms",
+                    "Capacity: 122 Liters",
+                    "Weight: 4.3 Kgs"],
                     manufactured: "VIP Industries Ltd. DGP House, 5th Floor, 88C Old Prabhadevi Road, Mumbai 400048"+
 
                     "Country of Origin - India",
                 
                     materialCare: "Ensure that your luggage is empty and place all of its removable liners and pockets and store them. Then, vacuum out crumbs and dirt from the suitcase. Wipe with clean & dry cloth",
-                    terms: "1. Offer applicable only on self QR registration and registration through POS App."+
-                    "2. Offer applicable on all purchases through VIP brand exclusive outlets."+
-                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery."+
-                    "4. Offer is not applicable on accessories."+
-                    "5. Offer is valid till 30th June 2023."},
+                    terms: ["1. Offer applicable only on self QR registration and registration through POS App.",
+                    "2. Offer applicable on all purchases through VIP brand exclusive outlets.",
+                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery.",
+                    "4. Offer is not applicable on accessories.",
+                    "5. Offer is valid till 30th June 2023."]},
         discount: "50%",
         color: ["Green","Periwinkle"],
         images: [["https://skybags.co.in/cdn/shop/files/JERRYC55BGN1_1024x1024.jpg?v=1682934371",
