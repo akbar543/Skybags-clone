@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux'
 const CartItems = () => {
 
   // const products = useSelector((state)=>state.skybagsReducer.products)
-  const products = useSelector((state)=>state.skybagsReducer.products)
+  const products = useSelector((state)=>state.skybags.products)
   console.log(products);
 
   return (
