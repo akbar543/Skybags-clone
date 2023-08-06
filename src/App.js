@@ -8,12 +8,14 @@ import Footer from './Components/Footer/Footer'
 import Navbar from './Components/Navbar/Navbar'
 import Admin from './Pages/Admin/Admin.js';
 import AllProductPage from './Pages/AllProduct/AllProductPage';
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 
 function App() {
 return (
 <div>
 <Router>
     <Navbar/>
+    <ScrollToTop/>
 <Routes>
 <Route path='/' element={<Home/>}/>
 <Route path='/item/:id' element={<Item/>}/>

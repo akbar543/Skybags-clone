@@ -271,13 +271,11 @@ function TopItem() {
             </div>
             <div className='faq_content'>
                 <div className='feature_list'>
-                  <ul>
-                    <li>{arr.description.terms[0]}</li>
-                    <li>{arr.description.terms[1]}</li>
-                    <li>{arr.description.terms[2]}</li>
-                    <li>{arr.description.terms[3]}</li>
-                    <li>{arr.description.terms[4]}</li>
-                  </ul>
+                  <p>{arr.description.terms[0]}</p>
+                  <p>{arr.description.terms[1]}</p>
+                  <p>{arr.description.terms[2]}</p>
+                  <p>{arr.description.terms[3]}</p>
+                  <p>{arr.description.terms[4]}</p>
                 </div>
               </div>
           </div>
