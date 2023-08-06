@@ -58,9 +58,9 @@ export const data = [
                     "Width: 32 Cms",
                     "Capacity: 122 Liters",
                     "Weight: 4.3 Kgs"],
-                    manufactured: "VIP Industries Ltd. DGP House, 5th Floor, 88C Old Prabhadevi Road, Mumbai 400048"+
+                    manufactured: ["VIP Industries Ltd. DGP House, 5th Floor, 88C Old Prabhadevi Road, Mumbai 400048",
 
-                    "Country of Origin - India",
+                    "Country of Origin - India"],
                 
                     materialCare: "Ensure that your luggage is empty and place all of its removable liners and pockets and store them. Then, vacuum out crumbs and dirt from the suitcase. Wipe with clean & dry cloth",
                     terms: ["1. Offer applicable only on self QR registration and registration through POS App.",
@@ -148,11 +148,11 @@ export const data = [
                     "Country of Origin - Bangladesh"],
                 
                     materialCare: "Ensure that your luggage is empty and place all of its removable liners and pockets and store them. Then, vacuum out crumbs and dirt from the suitcase. Wipe with clean & dry cloth",
-                    terms: "1. Offer applicable only on self QR registration and registration through POS App."+
-                    "2. Offer applicable on all purchases through VIP brand exclusive outlets."+
-                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery."+
-                    "4. Offer is not applicable on accessories."+
-                    "5. Offer is valid till 30th June 2023."},
+                    terms: ["1. Offer applicable only on self QR registration and registration through POS App.",
+                    "2. Offer applicable on all purchases through VIP brand exclusive outlets.",
+                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery.",
+                    "4. Offer is not applicable on accessories.",
+                    "5. Offer is valid till 30th June 2023."]},
         discount: "50%",
         color: ["Blue","Violet"],
         images: [["https://skybags.co.in/cdn/shop/products/STSWRW59BLU1_1_1024x1024.jpg?v=1679479224",
@@ -208,38 +208,38 @@ export const data = [
         size: ["Cabin","Medium","Large"],
         price: "9970.00",
         description: {description: "The all new Skybags SWIRL is here to slay.. in style! One more trendy and stylish addition to our ever trendiest brand Skybags. A perfect travel gear for everyone who wants to flaunt their all kinds of Nomad look. Swirl not only has a distinguished design, but is also extra spacious coupled with the best in class features! Fully loaded luggage with shoe pouch, smooth dual wheels, TSA lock, anti-theft zipper, superior silver trolley & the ever so visually delightful design, will ensure your bag gets a 2nd look. ",
-                    sizeAndDim: "Cms = Centimetres"+
-                    "Kgs = Kilograms"+
-                    "Cabin-"+
-                    "Height: 55 Cms"+
-                    "Length: 36 Cms"+
-                    "Width: 26 Cms"+
-                    "Capacity: 41 Liters"+
-                    "Weight: 3.4 Kgs"+
+                    sizeAndDim: ["Cms = Centimetres",
+                    "Kgs = Kilograms",
+                    "Cabin-",
+                    "Height: 55 Cms",
+                    "Length: 36 Cms",
+                    "Width: 26 Cms",
+                    "Capacity: 41 Liters",
+                    "Weight: 3.4 Kgs",
 
-                    "Medium-"+
-                    "Height: 67 Cms"+
-                    "Length: 41 Cms"+
-                    "Width: 31 Cms"+
-                    "Capacity: 84 Liters"+
-                    "Weight: 3.9 Kgs"+
+                    "Medium-",
+                    "Height: 67 Cms",
+                    "Length: 41 Cms",
+                    "Width: 31 Cms",
+                    "Capacity: 84 Liters",
+                    "Weight: 3.9 Kgs",
 
-                    "Large-"+
-                    "Height: 78 Cms"+
-                    "Length: 49 Cms"+
-                    "Width: 34 Cms"+
-                    "Capacity: 127 Liters"+
-                    "Weight: 4.9 Kgs",
-                    manufactured: "VIP Industries Ltd. DGP House, Prabhadevi Road, Mumbai 400025"+
+                    "Large-",
+                    "Height: 78 Cms",
+                    "Length: 49 Cms",
+                    "Width: 34 Cms",
+                    "Capacity: 127 Liters",
+                    "Weight: 4.9 Kgs"],
+                    manufactured: ["VIP Industries Ltd. DGP House, Prabhadevi Road, Mumbai 400025",
 
-                    "Country of Origin - Bangladesh",
+                    "Country of Origin - Bangladesh"],
                 
                     materialCare: "Ensure that your luggage is empty and place all of its removable liners and pockets and store them. Then, vacuum out crumbs and dirt from the suitcase. Wipe with clean & dry cloth",
-                    terms: "1. Offer applicable only on self QR registration and registration through POS App."+
-                    "2. Offer applicable on all purchases through VIP brand exclusive outlets."+
-                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery."+
-                    "4. Offer is not applicable on accessories."+
-                    "5. Offer is valid till 30th June 2023."},
+                    terms: ["1. Offer applicable only on self QR registration and registration through POS App.",
+                    "2. Offer applicable on all purchases through VIP brand exclusive outlets.",
+                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery.",
+                    "4. Offer is not applicable on accessories.",
+                    "5. Offer is valid till 30th June 2023."]},
         discount: "50%",
         color: ["Cobalt Blue","Ink Black"],
         images: [["https://skybags.co.in/cdn/shop/products/STTWP8W55CBL_1_1024x1024.webp?v=1674046593",
@@ -292,38 +292,38 @@ export const data = [
         size: ["Cabin","Medium","Large"],
         price: "10200.00",
         description: {description: " Are you a die-hard football fan? Then, bring on the football spirit alive with 'INDIA's FIRST EVER LIMITED EDITION FIFA COLLECTION' ! Up your style game with this unique, stylish, trendy and feature rich hard luggage collection from SKYBAGS​. #LET'S GET LOUD",
-                    sizeAndDim: "Cms = Centimetres"+
-                    "Kgs = Kilograms"+
-                    "Cabin-"+
-                    "Height: 55 Cms"+
-                    "Length: 38 Cms"+
-                    "Width: 22 Cms"+
-                    "Capacity: 46 Liters"+
-                    "Weight: 2.7 Kgs"+
+                    sizeAndDim: ["Cms = Centimetres",
+                    "Kgs = Kilograms",
+                    "Cabin-",
+                    "Height: 55 Cms",
+                    "Length: 38 Cms",
+                    "Width: 22 Cms",
+                    "Capacity: 46 Liters",
+                    "Weight: 2.7 Kgs",
 
-                    "Medium-"+
-                    "Height: 67 Cms"+
-                    "Length: 48 Cms"+
-                    "Width: 28 Cms"+
-                    "Capacity: 91 Liters"+
-                    "Weight: 3.5 Kgs"+
+                    "Medium-",
+                    "Height: 67 Cms",
+                    "Length: 48 Cms",
+                    "Width: 28 Cms",
+                    "Capacity: 91 Liters",
+                    "Weight: 3.5 Kgs",
 
-                    "Large-"+
-                    "Height: 79 Cms"+
-                    "Length: 56 Cms"+
-                    "Width: 33 Cms"+
-                    "Capacity: 146 Liters"+
-                    "Weight: 4.2 Kgs",
-                    manufactured: "VIP Industries Ltd. DGP House, 5th Floor, 88C Old Prabhadevi Road, Mumbai 400025"+
+                    "Large-",
+                    "Height: 79 Cms",
+                    "Length: 56 Cms",
+                    "Width: 33 Cms",
+                    "Capacity: 146 Liters",
+                    "Weight: 4.2 Kgs"],
+                    manufactured: ["VIP Industries Ltd. DGP House, 5th Floor, 88C Old Prabhadevi Road, Mumbai 400025",
 
-                    "Country of Origin - India",
+                    "Country of Origin - India"],
                 
                     materialCare: "Ensure that your luggage is empty and place all of its removable liners and pockets and store them. Then, vacuum out crumbs and dirt from the suitcase. Wipe with clean & dry cloth",
-                    terms: "1. Offer applicable only on self QR registration and registration through POS App."+
-                    "2. Offer applicable on all purchases through VIP brand exclusive outlets."+
-                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery."+
-                    "4. Offer is not applicable on accessories."+
-                    "5. Offer is valid till 30th June 2023."},
+                    terms: ["1. Offer applicable only on self QR registration and registration through POS App.",
+                    "2. Offer applicable on all purchases through VIP brand exclusive outlets.",
+                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery.",
+                    "4. Offer is not applicable on accessories.",
+                    "5. Offer is valid till 30th June 2023."]},
         discount: "50%",
         color: ["Blue and White"],
         images: [["https://skybags.co.in/cdn/shop/products/TREBLE55FBG1_900x.jpg?v=1679479689",
@@ -364,23 +364,23 @@ export const data = [
         size: [],
         price: "2500.00",
         description: {description: "Skybags Disney & marvel Edition 2022 ( With Marvel & Frozen Visuals at the background )",
-                    sizeAndDim: "Cms = Centimetres"+
-                    "Gms = Grams"+
-                    "Height: 46 Cms"+
-                    "Length: 32 Cms"+
-                    "Width: 24 Cms"+
-                    "Capacity: 36 Liters"+
-                    "Weight: 510 Gms",
-                    manufactured: "VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India"+
+                    sizeAndDim: ["Cms = Centimetres",
+                    "Gms = Grams",
+                    "Height: 46 Cms",
+                    "Length: 32 Cms",
+                    "Width: 24 Cms",
+                    "Capacity: 36 Liters",
+                    "Weight: 510 Gms"],
+                    manufactured: ["VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India",
 
-                    "Country of Origin - India",
+                    "Country of Origin - India"],
                 
                     materialCare: "Consider a monthly routine of a quick wipe-down or brushing. If you used water to wash your fabric pack, hang your pack to dry completely before putting it into action again. use cool water with a soft damp cloth to wipe down the interior and exterior of your pack, Never use bleach or harsh detergents on your bag. And remember to avoid any suede or leather trim on your pack as these areas could discolor if they get wet",
-                    terms: "1. Offer applicable only on self QR registration and registration through POS App."+
-                    "2. Offer applicable on all purchases through VIP brand exclusive outlets."+
-                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery."+
-                    "4. Offer is not applicable on accessories."+
-                    "5. Offer is valid till 30th June 2023."},
+                    terms: ["1. Offer applicable only on self QR registration and registration through POS App.",
+                    "2. Offer applicable on all purchases through VIP brand exclusive outlets.",
+                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery.",
+                    "4. Offer is not applicable on accessories.",
+                    "5. Offer is valid till 30th June 2023."]},
         discount: "50%",
         color: ["Black"],
         images: [["https://skybags.co.in/cdn/shop/products/BPDIM1BLU_1_1024x1024.webp?v=1674033848",
@@ -421,23 +421,23 @@ export const data = [
         size: [],
         price: "1698.00",
         description: {description: " Are you a die-hard football fan? Then, bring on the football spirit alive with 'INDIA's FIRST EVER LIMITED EDITION FIFA COLLECTION' ! Up your style game with this unique, stylish, trendy and feature rich hard luggage collection from SKYBAGS​. #LET'S GET LOUD",
-                    sizeAndDim: "Cms = Centimetres"+
-                    "Kgs = Kilograms"+
-                    "Height: 49.5 Cms"+
-                    "Length: 30.5 Cms"+
-                    "Width: 17.5 Cms"+
-                    "Capacity: 27 Liters"+
-                    "Weight: 375 Gms",
-                    manufactured: "VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India"+
+                    sizeAndDim: ["Cms = Centimetres",
+                    "Kgs = Kilograms",
+                    "Height: 49.5 Cms",
+                    "Length: 30.5 Cms",
+                    "Width: 17.5 Cms",
+                    "Capacity: 27 Liters",
+                    "Weight: 375 Gms"],
+                    manufactured: ["VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India",
 
-                    "Country of Origin - Bangladesh",
+                    "Country of Origin - Bangladesh"],
                 
                     materialCare: "Consider a monthly routine of a quick wipe-down or brushing. If you used water to wash your fabric pack, hang your pack to dry completely before putting it into action again. use cool water with a soft damp cloth to wipe down the interior and exterior of your pack, Never use bleach or harsh detergents on your bag. And remember to avoid any suede or leather trim on your pack as these areas could discolor if they get wet.",
-                    terms: "1. Offer applicable only on self QR registration and registration through POS App."+
-                    "2. Offer applicable on all purchases through VIP brand exclusive outlets."+
-                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery."+
-                    "4. Offer is not applicable on accessories."+
-                    "5. Offer is valid till 30th June 2023."},
+                    terms: ["1. Offer applicable only on self QR registration and registration through POS App.",
+                    "2. Offer applicable on all purchases through VIP brand exclusive outlets.",
+                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery.",
+                    "4. Offer is not applicable on accessories.",
+                    "5. Offer is valid till 30th June 2023."]},
         discount: "",
         color: ["Black", "Green", "Deep Water", "Magnet"],
         images: [["https://skybags.co.in/cdn/shop/files/1_34c4d88b-49ad-4074-bff5-56b24237eb93_1024x1024.jpg?v=1683180085",
@@ -511,23 +511,23 @@ export const data = [
         size: [],
         price: "4100.00",
         description: {description: "A super sleek, sporty and casual 32L backpack FIFA backpack for all the football fans. Ideal for college student or a day outings. Big enough to carry all your essentials. Sleek enough to carry it with ease",
-                    sizeAndDim: "Cms = Centimetres"+
-                    "Gms = Grams"+
-                    "Height: 47 Cms"+
-                    "Length: 28.5 Cms"+
-                    "Width: 18 Cms"+
-                    "Capacity: 25 Liters"+
-                    "Weight: 517 Gms",
-                    manufactured: "VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India"+
+                    sizeAndDim: ["Cms = Centimetres",
+                    "Gms = Grams",
+                    "Height: 47 Cms",
+                    "Length: 28.5 Cms",
+                    "Width: 18 Cms",
+                    "Capacity: 25 Liters",
+                    "Weight: 517 Gms"],
+                    manufactured: ["VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India",
 
-                    "Country of Origin - India",
+                    "Country of Origin - India"],
                 
                     materialCare: "Consider a monthly routine of a quick wipe-down or brushing. If you used water to wash your fabric pack, hang your pack to dry completely before putting it into action again. use cool water with a soft damp cloth to wipe down the interior and exterior of your pack, Never use bleach or harsh detergents on your bag. And remember to avoid any suede or leather trim on your pack as these areas could discolor if they get wet",
-                    terms: "1. Offer applicable only on self QR registration and registration through POS App."+
-                    "2. Offer applicable on all purchases through VIP brand exclusive outlets."+
-                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery."+
-                    "4. Offer is not applicable on accessories."+
-                    "5. Offer is valid till 30th June 2023."},
+                    terms: ["1. Offer applicable only on self QR registration and registration through POS App.",
+                    "2. Offer applicable on all purchases through VIP brand exclusive outlets.",
+                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery.",
+                    "4. Offer is not applicable on accessories.",
+                    "5. Offer is valid till 30th June 2023."]},
         discount: "",
         color: ["Black"],
         images: [["https://skybags.co.in/cdn/shop/products/LPBPKIC1BLK_1_1024x1024.webp?v=1674038953",
@@ -577,23 +577,23 @@ export const data = [
         size: [],
         price: "3700.00",
         description: {description: "Life opens up a whole new world of possibilities & Opportunities for the College Student. The drive for a new career path and freedom to socialise brings with it new motivations. The College range of Backpacks from Skybags comes with dollops of contemporary styling and attractive features to  complement the footloose and carefree mindset of the young adult",
-                    sizeAndDim: "Cms = Centimetres"+
-                    "Gms = Grams"+
-                    "Height: 52.5 Cms"+
-                    "Length: 34.5 Cms"+
-                    "Width: 22.5 Cms"+
-                    "Capacity: 41    Liters"+
-                    "Weight: 660 Gms",
-                    manufactured: "VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India"+
+                    sizeAndDim: ["Cms = Centimetres",
+                    "Gms = Grams",
+                    "Height: 52.5 Cms",
+                    "Length: 34.5 Cms",
+                    "Width: 22.5 Cms",
+                    "Capacity: 41    Liters",
+                    "Weight: 660 Gms"],
+                    manufactured: ["VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India",
 
-                    "Country of Origin - Bangladesh",
+                    "Country of Origin - Bangladesh"],
                 
                     materialCare: "Consider a monthly routine of a quick wipe-down or brushing. If you used water to wash your fabric pack, hang your pack to dry completely before putting it into action again. use cool water with a soft damp cloth to wipe down the interior and exterior of your pack, Never use bleach or harsh detergents on your bag. And remember to avoid any suede or leather trim on your pack as these areas could discolor if they get wet",
-                    terms: "1. Offer applicable only on self QR registration and registration through POS App."+
-                    "2. Offer applicable on all purchases through VIP brand exclusive outlets."+
-                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery."+
-                    "4. Offer is not applicable on accessories."+
-                    "5. Offer is valid till 30th June 2023."},
+                    terms: ["1. Offer applicable only on self QR registration and registration through POS App.",
+                    "2. Offer applicable on all purchases through VIP brand exclusive outlets.",
+                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery.",
+                    "4. Offer is not applicable on accessories.",
+                    "5. Offer is valid till 30th June 2023."]},
         discount: "",
         color: ["Iron", "Pond", "Grey"],
         images: [["https://skybags.co.in/cdn/shop/files/1_e09109f5-9893-475c-86c5-4f0442b342d9_1024x1024.jpg?v=1683180650",
@@ -656,23 +656,23 @@ export const data = [
         size: [],
         price: "3700.00",
         description: {description: "For the adventure lover in you. This rucksack is designed for you to go on regular treks & hikes in plains, forests & hills. Offering you a comfortable rucksack for your outdoor trips",
-                    sizeAndDim: "Cms = Centimetres"+
-                    "Gms = Grams"+
-                    "Height: 68.5 Cms"+
-                    "Length: 33.5 Cms"+
-                    "Width: 21.5 Cms"+
-                    "Capacity: 50 Liters"+
-                    "Weight: 1130 Gms",
-                    manufactured: "VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India"+
+                    sizeAndDim: ["Cms = Centimetres",
+                    "Gms = Grams",
+                    "Height: 68.5 Cms",
+                    "Length: 33.5 Cms",
+                    "Width: 21.5 Cms",
+                    "Capacity: 50 Liters",
+                    "Weight: 1130 Gms"],
+                    manufactured: ["VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India",
 
-                    "Country of Origin - India",
+                    "Country of Origin - India"],
                 
                     materialCare: "Consider a monthly routine of a quick wipe-down or brushing. If you used water to wash your fabric pack, hang your pack to dry completely before putting it into action again. use cool water with a soft damp cloth to wipe down the interior and exterior of your pack, Never use bleach or harsh detergents on your bag. And remember to avoid any suede or leather trim on your pack as these areas could discolor if they get wet",
-                    terms: "1. Offer applicable only on self QR registration and registration through POS App."+
-                    "2. Offer applicable on all purchases through VIP brand exclusive outlets."+
-                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery."+
-                    "4. Offer is not applicable on accessories."+
-                    "5. Offer is valid till 30th June 2023."},
+                    terms: ["1. Offer applicable only on self QR registration and registration through POS App.",
+                    "2. Offer applicable on all purchases through VIP brand exclusive outlets.",
+                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery.",
+                    "4. Offer is not applicable on accessories.",
+                    "5. Offer is valid till 30th June 2023."]},
         discount: "50%",
         color: ["Green"],
         images: [["https://skybags.co.in/cdn/shop/files/1_b29b5f3d-e37f-4d5d-87d6-622b7a09febf_1024x1024.jpg?v=1683186333",
@@ -715,23 +715,23 @@ export const data = [
         size: [],
         price: "1298.00",
         description: {description: "Ideal for 17-22 yr old young brat who beats the daily hustle. Big enough to carry all your essentials. Sleek enough to carry it with ease",
-                    sizeAndDim: "Cms = Centimetres"+
-                    "Gms = Grams"+
-                    "Height: 47.5 Cms"+
-                    "Length: 29.5 Cms"+
-                    "Width: 16.5 Cms"+
-                    "Capacity: 17 Liters"+
-                    "Weight: 275 Gms",
-                    manufactured: "IP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India"+
+                    sizeAndDim: ["Cms = Centimetres",
+                    "Gms = Grams",
+                    "Height: 47.5 Cms",
+                    "Length: 29.5 Cms",
+                    "Width: 16.5 Cms",
+                    "Capacity: 17 Liters",
+                    "Weight: 275 Gms"],
+                    manufactured: ["IP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India",
 
-                    "Country of Origin - Bangladesh",
+                    "Country of Origin - Bangladesh"],
                 
                     materialCare: "Consider a monthly routine of a quick wipe-down or brushing. If you used water to wash your fabric pack, hang your pack to dry completely before putting it into action again. use cool water with a soft damp cloth to wipe down the interior and exterior of your pack, Never use bleach or harsh detergents on your bag. And remember to avoid any suede or leather trim on your pack as these areas could discolor if they get wet",
-                    terms: "1. Offer applicable only on self QR registration and registration through POS App."+
-                    "2. Offer applicable on all purchases through VIP brand exclusive outlets."+
-                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery."+
-                    "4. Offer is not applicable on accessories."+
-                    "5. Offer is valid till 30th June 2023."},
+                    terms: ["1. Offer applicable only on self QR registration and registration through POS App.",
+                    "2. Offer applicable on all purchases through VIP brand exclusive outlets.",
+                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery.",
+                    "4. Offer is not applicable on accessories.",
+                    "5. Offer is valid till 30th June 2023."]},
         discount: "50%",
         color: ["Blue", "Grey", "Yellow"],
         images: [["https://skybags.co.in/cdn/shop/files/1_900x_fe2a22f6-ffed-471e-8a16-65433b6c9d57_900x.png?v=1685093839",
@@ -803,23 +803,23 @@ export const data = [
         size: [],
         price: "4000.00",
         description: {description: "For the Stylish young professional between 22-26 years old who travels frequently for a day /overnight.",
-                    sizeAndDim: "Cms = Centimetres"+
-                    "Gms = Grams"+
-                    "Height: 49 Cms"+
-                    "Length: 34 Cms"+
-                    "Width: 19 Cms"+
-                    "Capacity: 32 Liters"+
-                    "Weight: 647 Gms",
-                    manufactured: "VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India"+
+                    sizeAndDim: ["Cms = Centimetres",
+                    "Gms = Grams",
+                    "Height: 49 Cms",
+                    "Length: 34 Cms",
+                    "Width: 19 Cms",
+                    "Capacity: 32 Liters",
+                    "Weight: 647 Gms"],
+                    manufactured: ["VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India",
 
-                    "Country of Origin - India",
+                    "Country of Origin - India"],
                 
                     materialCare: "Consider a monthly routine of a quick wipe-down or brushing. If you used water to wash your fabric pack, hang your pack to dry completely before putting it into action again. use cool water with a soft damp cloth to wipe down the interior and exterior of your pack, Never use bleach or harsh detergents on your bag. And remember to avoid any suede or leather trim on your pack as these areas could discolor if they get wet",
-                    terms: "1. Offer applicable only on self QR registration and registration through POS App."+
-                    "2. Offer applicable on all purchases through VIP brand exclusive outlets."+
-                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery."+
-                    "4. Offer is not applicable on accessories."+
-                    "5. Offer is valid till 30th June 2023."},
+                    terms: ["1. Offer applicable only on self QR registration and registration through POS App.",
+                    "2. Offer applicable on all purchases through VIP brand exclusive outlets.",
+                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery.",
+                    "4. Offer is not applicable on accessories.",
+                    "5. Offer is valid till 30th June 2023."]},
         discount: "50%",
         color: ["Black","Blue"],
         images: [["https://skybags.co.in/cdn/shop/products/LPBPCHPBLK_1_1024x1024.webp?v=1674044489",
@@ -878,23 +878,23 @@ export const data = [
         size: [],
         price: "5100.00",
         description: {description: "For the Stylish young professional between 22-26 years old who travels frequently for a day /overnight.",
-                    sizeAndDim: "Cms = Centimetres"+
-                    "Gms = Grams"+
-                    "Height: 51 Cms"+
-                    "Length: 33 Cms"+
-                    "Width: 21 Cms"+
-                    "Capacity: 36 Liters"+
-                    "Weight: 720 Gms",
-                    manufactured: "VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India"+
+                    sizeAndDim: ["Cms = Centimetres",
+                    "Gms = Grams",
+                    "Height: 51 Cms",
+                    "Length: 33 Cms",
+                    "Width: 21 Cms",
+                    "Capacity: 36 Liters",
+                    "Weight: 720 Gms"],
+                    manufactured: ["VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India",
 
-                    "Country of Origin - India",
+                    "Country of Origin - India"],
                 
                     materialCare: "Consider a monthly routine of a quick wipe-down or brushing. If you used water to wash your fabric pack, hang your pack to dry completely before putting it into action again. use cool water with a soft damp cloth to wipe down the interior and exterior of your pack, Never use bleach or harsh detergents on your bag. And remember to avoid any suede or leather trim on your pack as these areas could discolor if they get wet",
-                    terms: "1. Offer applicable only on self QR registration and registration through POS App."+
-                    "2. Offer applicable on all purchases through VIP brand exclusive outlets."+
-                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery."+
-                    "4. Offer is not applicable on accessories."+
-                    "5. Offer is valid till 30th June 2023."},
+                    terms: ["1. Offer applicable only on self QR registration and registration through POS App.",
+                    "2. Offer applicable on all purchases through VIP brand exclusive outlets.",
+                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery.",
+                    "4. Offer is not applicable on accessories.",
+                    "5. Offer is valid till 30th June 2023."]},
         discount: "50%",
         color: ["Blue"],
         images: [["https://skybags.co.in/cdn/shop/products/RSHAW45LBLU_1_1024x1024.webp?v=1674035550",
@@ -936,23 +936,23 @@ export const data = [
         size: [],
         price: "5100.00",
         description: {description: "For the Stylish young professional between 22-26 years old who travels frequently for a day /overnight.",
-                    sizeAndDim: "Cms = Centimetres"+
-                    "Gms = Grams"+
-                    "Height: 45.5 Cms"+
-                    "Length: 28.5 Cms"+
-                    "Width: 16.5 Cms"+
-                    "Capacity: 22 Liters"+
-                    "Weight: 254 Gms",
-                    manufactured: "VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India."+
+                    sizeAndDim: ["Cms = Centimetres",
+                    "Gms = Grams",
+                    "Height: 45.5 Cms",
+                    "Length: 28.5 Cms",
+                    "Width: 16.5 Cms",
+                    "Capacity: 22 Liters",
+                    "Weight: 254 Gms"],
+                    manufactured: ["VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India.",
 
-                    "Country of Origin - India",
+                    "Country of Origin - India"],
                 
                     materialCare: "Consider a monthly routine of a quick wipe-down or brushing. If you used water to wash your fabric pack, hang your pack to dry completely before putting it into action again. use cool water with a soft damp cloth to wipe down the interior and exterior of your pack, Never use bleach or harsh detergents on your bag. And remember to avoid any suede or leather trim on your pack as these areas could discolor if they get wet",
-                    terms: "1. Offer applicable only on self QR registration and registration through POS App."+
-                    "2. Offer applicable on all purchases through VIP brand exclusive outlets."+
-                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery."+
-                    "4. Offer is not applicable on accessories."+
-                    "5. Offer is valid till 30th June 2023."},
+                    terms: ["1. Offer applicable only on self QR registration and registration through POS App.",
+                    "2. Offer applicable on all purchases through VIP brand exclusive outlets.",
+                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery.",
+                    "4. Offer is not applicable on accessories.",
+                    "5. Offer is valid till 30th June 2023."]},
         discount: "50%",
         color: ["Blue", "Maroon"],
         images: [["https://skybags.co.in/cdn/shop/products/BPZUK1BLU_1_1024x1024.webp?v=1673955476",
@@ -1007,23 +1007,23 @@ export const data = [
         size: [],
         price: "5100.00",
         description: {description: "A super sleek, sporty and casual 32L backpack FIFA backpack for all the football fans. Ideal for college student or a day outings. Big enough to carry all your essentials. Sleek enough to carry it with ease",
-                    sizeAndDim: "Cms = Centimetres"+
-                    "Gms = Grams"+
-                    "Height: 45 Cms"+
-                    "Length: 32.5 Cms"+
-                    "Width: 21.5 Cms"+
-                    "Capacity: 32 Liters"+
-                    "Weight: 470 Gms",
-                    manufactured: "VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India"+
+                    sizeAndDim: ["Cms = Centimetres",
+                    "Gms = Grams",
+                    "Height: 45 Cms",
+                    "Length: 32.5 Cms",
+                    "Width: 21.5 Cms",
+                    "Capacity: 32 Liters",
+                    "Weight: 470 Gms"],
+                    manufactured: ["VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India",
 
-                    "Country of Origin - India",
+                    "Country of Origin - India"],
                 
                     materialCare: "Consider a monthly routine of a quick wipe-down or brushing. If you used water to wash your fabric pack, hang your pack to dry completely before putting it into action again. use cool water with a soft damp cloth to wipe down the interior and exterior of your pack, Never use bleach or harsh detergents on your bag. And remember to avoid any suede or leather trim on your pack as these areas could discolor if they get wet",
-                    terms: "1. Offer applicable only on self QR registration and registration through POS App."+
-                    "2. Offer applicable on all purchases through VIP brand exclusive outlets."+
-                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery."+
-                    "4. Offer is not applicable on accessories."+
-                    "5. Offer is valid till 30th June 2023."},
+                    terms: ["1. Offer applicable only on self QR registration and registration through POS App.",
+                    "2. Offer applicable on all purchases through VIP brand exclusive outlets.",
+                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery.",
+                    "4. Offer is not applicable on accessories.",
+                    "5. Offer is valid till 30th June 2023."]},
         discount: "50%",
         color: ["Navy"],
         images: [["https://skybags.co.in/cdn/shop/products/BPCHA01NVY_1_1024x1024.webp?v=1674038022",
@@ -1071,23 +1071,23 @@ export const data = [
         size: [],
         price: "3000.00",
         description: {description: "Skybags Disney & marvel Edition 2022 ( With Marvel & Frozen Visuals at the background )",
-                    sizeAndDim: "Cms = Centimetres"+
-                    "Gms = Grams"+
-                    "Height: 46.5 Cms"+
-                    "Length: 32.5 Cms"+
-                    "Width: 22.5 Cms"+
-                    "Capacity: 35 Liters"+
-                    "Weight: 510 Gms",
-                    manufactured: "VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India"+
+                    sizeAndDim: ["Cms = Centimetres",
+                    "Gms = Grams",
+                    "Height: 46.5 Cms",
+                    "Length: 32.5 Cms",
+                    "Width: 22.5 Cms",
+                    "Capacity: 35 Liters",
+                    "Weight: 510 Gms"],
+                    manufactured: ["VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India",
 
-                    "Country of Origin - India",
+                    "Country of Origin - India"],
                 
                     materialCare: "Consider a monthly routine of a quick wipe-down or brushing. If you used water to wash your fabric pack, hang your pack to dry completely before putting it into action again. use cool water with a soft damp cloth to wipe down the interior and exterior of your pack, Never use bleach or harsh detergents on your bag. And remember to avoid any suede or leather trim on your pack as these areas could discolor if they get wet",
-                    terms: "1. Offer applicable only on self QR registration and registration through POS App."+
-                    "2. Offer applicable on all purchases through VIP brand exclusive outlets."+
-                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery."+
-                    "4. Offer is not applicable on accessories."+
-                    "5. Offer is valid till 30th June 2023."},
+                    terms: ["1. Offer applicable only on self QR registration and registration through POS App.",
+                    "2. Offer applicable on all purchases through VIP brand exclusive outlets.",
+                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery.",
+                    "4. Offer is not applicable on accessories.",
+                    "5. Offer is valid till 30th June 2023."]},
         discount: "50%",
         color: ["Navy"],
         images: [["https://skybags.co.in/cdn/shop/products/BPDIF1BLU_1_1024x1024.webp?v=1674033343",
@@ -1129,23 +1129,23 @@ export const data = [
         size: [],
         price: "3000.00",
         description: {description: "A perfect Gym partner",
-                    sizeAndDim: "Cms = Centimetres"+
-                    "Gms = Grams"+
-                    "Height: 46.5 Cms"+
-                    "Length: 32.5 Cms"+
-                    "Width: 22.5 Cms"+
-                    "Capacity: 35 Liters"+
-                    "Weight: 510 Gms",
-                    manufactured: "VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India"+
+                    sizeAndDim: ["Cms = Centimetres",
+                    "Gms = Grams",
+                    "Height: 46.5 Cms",
+                    "Length: 32.5 Cms",
+                    "Width: 22.5 Cms",
+                    "Capacity: 35 Liters",
+                    "Weight: 510 Gms"],
+                    manufactured: ["VIP Industries Limited, DGP House, 88C, Old Prabhadevi Road, Prabhadevi, Mumbai 400025. India",
 
-                    "Country of Origin - India",
+                    "Country of Origin - India"],
                 
                     materialCare: "Consider a monthly routine of a quick wipe-down or brushing. If you used water to wash your fabric pack, hang your pack to dry completely before putting it into action again. use cool water with a soft damp cloth to wipe down the interior and exterior of your pack, Never use bleach or harsh detergents on your bag. And remember to avoid any suede or leather trim on your pack as these areas could discolor if they get wet",
-                    terms: "1. Offer applicable only on self QR registration and registration through POS App."+
-                    "2. Offer applicable on all purchases through VIP brand exclusive outlets."+
-                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery."+
-                    "4. Offer is not applicable on accessories."+
-                    "5. Offer is valid till 30th June 2023."},
+                    terms: ["1. Offer applicable only on self QR registration and registration through POS App.",
+                    "2. Offer applicable on all purchases through VIP brand exclusive outlets.",
+                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery.",
+                    "4. Offer is not applicable on accessories.",
+                    "5. Offer is valid till 30th June 2023."]},
         discount: "50%",
         color: ["Black", "Blue"],
         images: [["https://skybags.co.in/cdn/shop/products/DFACTHLBL_1_9fcd22e1-8c7b-4f90-ad85-8c6a8c3c6b2c_900x.jpg?v=1681116631",
@@ -1196,31 +1196,31 @@ export const data = [
         size: [],
         price: "6660.00",
         description: {description: "A perfect Gym partner",
-                    sizeAndDim: "Cms = Centimetres"+
-                    "Gms = Grams"+
-                    "Medium-"+
-                    "Height: 55 Cms"+
-                   "Length: 29 Cms"+
-                    "Width: 32 Cms"+
-                    "Capacity: 50 Liters"+
-                    "Weight: 1815 Gms"+
+                    sizeAndDim: ["Cms = Centimetres",
+                    "Gms = Grams",
+                    "Medium-",
+                    "Height: 55 Cms",
+                   "Length: 29 Cms",
+                    "Width: 32 Cms",
+                    "Capacity: 50 Liters",
+                    "Weight: 1815 Gms",
                     
-                    "Large-"+
-                    "Height: 65 Cms"+
-                    "Length: 35 Cms"+
-                    "Width: 27 Cms"+
-                    "Capacity: 61 Liters"+
-                    "Weight: 1999 Gms",
-                    manufactured: "VIP Industries Ltd. DGP House, Prabhadevi Mumbai"+
+                    "Large-",
+                    "Height: 65 Cms",
+                    "Length: 35 Cms",
+                    "Width: 27 Cms",
+                    "Capacity: 61 Liters",
+                    "Weight: 1999 Gms"],
+                    manufactured: ["VIP Industries Ltd. DGP House, Prabhadevi Mumbai",
                     
-                    "Country of Origin - Bangladesh",
+                    "Country of Origin - Bangladesh"],
                 
                     materialCare: "Ensure that your duffle is empty and place all of its removable liners and pockets into your bowl. Then, vacuum out crumbs and dirt from the suitcase. Wipe with clean & dry cloth",
-                    terms: "1. Offer applicable only on self QR registration and registration through POS App."+
-                    "2. Offer applicable on all purchases through VIP brand exclusive outlets."+
-                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery."+
-                    "4. Offer is not applicable on accessories."+
-                    "5. Offer is valid till 30th June 2023."},
+                    terms: ["1. Offer applicable only on self QR registration and registration through POS App.",
+                    "2. Offer applicable on all purchases through VIP brand exclusive outlets.",
+                    "3. Offer is applicable for the registrations made within 30 days of invoicing/delivery.",
+                    "4. Offer is not applicable on accessories.",
+                    "5. Offer is valid till 30th June 2023."]},
         discount: "50%",
         color: ["Light Green", "Orange"],
         images: [["https://skybags.co.in/cdn/shop/products/DFTHUS65GRN_1_febf79d9-7e8b-4e9a-9830-7c0943c38683_1024x1024.webp?v=1674106776",
