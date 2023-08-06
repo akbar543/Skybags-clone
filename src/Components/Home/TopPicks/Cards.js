@@ -22,7 +22,7 @@ const Cards = ({ id, image, description, review, price, other }) => {
   };
 
   const handleredirect = (id) => {
-    navigate(`/cart/${id}`)
+    navigate(`/item/${id}`)
   }
 
   const handleImageClickdirect = () => {

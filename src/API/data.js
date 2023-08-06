@@ -34,7 +34,7 @@ export const data = [
         occasion: "",
         title: "SKYBAGS JERRYCAN",
         size: ["Cabin","Medium","Large"],
-        price: "10,200.00",
+        price: "10200.00",
         description: {description: "Like sober & attractive strokes on a canvas, this luggage masterpiece will inspire you to go places & Chase The World! This strong polycarbonate shell design with organised interior, smooth dual wheels, flushed TSA lock, Reverse zipper, wet pouch for toiletries, push button trolley & the ever so visually delightful design, will ensure your bag gets a 2nd look. ",
                     sizeAndDim: "Cms = Centimetres"+
                     "Kgs = Kilograms"+
@@ -119,7 +119,7 @@ export const data = [
         occasion: "",
         title: "SKYBAGS SWIRL",
         size: ["Cabin","Medium","Large"],
-        price: "11,800.00",
+        price: "11800.00",
         description: {description: "The all new Skybags SWIRL is here to slay.. in style! One more trendy and stylish addition to our ever trendiest brand Skybags. A perfect travel gear for everyone who wants to flaunt their all kinds of Nomad look. Swirl not only has a distinguished design, but is also extra spacious coupled with the best in class features! Fully loaded luggage with shoe pouch, smooth dual wheels, TSA lock, anti-theft zipper, superior silver trolley & the ever so visually delightful design, will ensure your bag gets a 2nd look. ",
                     sizeAndDim: "Cms = Centimetres"+
                     "Kgs = Kilograms"+
@@ -206,7 +206,7 @@ export const data = [
         occasion: "",
         title: "SKYBAGS TWENTYFOUR7 PRO",
         size: ["Cabin","Medium","Large"],
-        price: "9,970.00",
+        price: "9970.00",
         description: {description: "The all new Skybags SWIRL is here to slay.. in style! One more trendy and stylish addition to our ever trendiest brand Skybags. A perfect travel gear for everyone who wants to flaunt their all kinds of Nomad look. Swirl not only has a distinguished design, but is also extra spacious coupled with the best in class features! Fully loaded luggage with shoe pouch, smooth dual wheels, TSA lock, anti-theft zipper, superior silver trolley & the ever so visually delightful design, will ensure your bag gets a 2nd look. ",
                     sizeAndDim: "Cms = Centimetres"+
                     "Kgs = Kilograms"+
@@ -290,7 +290,7 @@ export const data = [
         occasion: "",
         title: "SKYBAGS FIFA - TREBLE",
         size: ["Cabin","Medium","Large"],
-        price: "10,200.00",
+        price: "10200.00",
         description: {description: " Are you a die-hard football fan? Then, bring on the football spirit alive with 'INDIA's FIRST EVER LIMITED EDITION FIFA COLLECTION' ! Up your style game with this unique, stylish, trendy and feature rich hard luggage collection from SKYBAGS​. #LET'S GET LOUD",
                     sizeAndDim: "Cms = Centimetres"+
                     "Kgs = Kilograms"+
@@ -362,7 +362,7 @@ export const data = [
         occasion: "",
         title: "SKYBAGS DISNEY MARVEL",
         size: [],
-        price: "2,500.00",
+        price: "2500.00",
         description: {description: "Skybags Disney & marvel Edition 2022 ( With Marvel & Frozen Visuals at the background )",
                     sizeAndDim: "Cms = Centimetres"+
                     "Gms = Grams"+
@@ -419,7 +419,7 @@ export const data = [
         occasion: "",
         title: "Skybags Fuse",
         size: [],
-        price: "1,698.00",
+        price: "1698.00",
         description: {description: " Are you a die-hard football fan? Then, bring on the football spirit alive with 'INDIA's FIRST EVER LIMITED EDITION FIFA COLLECTION' ! Up your style game with this unique, stylish, trendy and feature rich hard luggage collection from SKYBAGS​. #LET'S GET LOUD",
                     sizeAndDim: "Cms = Centimetres"+
                     "Kgs = Kilograms"+
@@ -509,7 +509,7 @@ export const data = [
         occasion: "Student",
         title: "Skybags Kick",
         size: [],
-        price: "4,100.00",
+        price: "4100.00",
         description: {description: "A super sleek, sporty and casual 32L backpack FIFA backpack for all the football fans. Ideal for college student or a day outings. Big enough to carry all your essentials. Sleek enough to carry it with ease",
                     sizeAndDim: "Cms = Centimetres"+
                     "Gms = Grams"+
@@ -575,7 +575,7 @@ export const data = [
         occasion: "",
         title: "Skybags Cruze XL",
         size: [],
-        price: "3,700.00",
+        price: "3700.00",
         description: {description: "Life opens up a whole new world of possibilities & Opportunities for the College Student. The drive for a new career path and freedom to socialise brings with it new motivations. The College range of Backpacks from Skybags comes with dollops of contemporary styling and attractive features to  complement the footloose and carefree mindset of the young adult",
                     sizeAndDim: "Cms = Centimetres"+
                     "Gms = Grams"+
@@ -654,7 +654,7 @@ export const data = [
         occasion: "",
         title: "Skybags Sonic",
         size: [],
-        price: "3,700.00",
+        price: "3700.00",
         description: {description: "For the adventure lover in you. This rucksack is designed for you to go on regular treks & hikes in plains, forests & hills. Offering you a comfortable rucksack for your outdoor trips",
                     sizeAndDim: "Cms = Centimetres"+
                     "Gms = Grams"+
@@ -713,7 +713,7 @@ export const data = [
         occasion: "",
         title: "Skybags Lit",
         size: [],
-        price: "1,298.00",
+        price: "1298.00",
         description: {description: "Ideal for 17-22 yr old young brat who beats the daily hustle. Big enough to carry all your essentials. Sleek enough to carry it with ease",
                     sizeAndDim: "Cms = Centimetres"+
                     "Gms = Grams"+
@@ -801,7 +801,7 @@ export const data = [
         occasion: "",
         title: "SKYBAGS CHESTER PLUS",
         size: [],
-        price: "4,000.00",
+        price: "4000.00",
         description: {description: "For the Stylish young professional between 22-26 years old who travels frequently for a day /overnight.",
                     sizeAndDim: "Cms = Centimetres"+
                     "Gms = Grams"+
@@ -876,7 +876,7 @@ export const data = [
         occasion: "Adventure",
         title: "SKYBAGS HAWK",
         size: [],
-        price: "5,100.00",
+        price: "5100.00",
         description: {description: "For the Stylish young professional between 22-26 years old who travels frequently for a day /overnight.",
                     sizeAndDim: "Cms = Centimetres"+
                     "Gms = Grams"+
@@ -934,7 +934,7 @@ export const data = [
         occasion: "Day Trips",
         title: "Skybags Zuke",
         size: [],
-        price: "5,100.00",
+        price: "5100.00",
         description: {description: "For the Stylish young professional between 22-26 years old who travels frequently for a day /overnight.",
                     sizeAndDim: "Cms = Centimetres"+
                     "Gms = Grams"+
@@ -1005,7 +1005,7 @@ export const data = [
         occasion: "",
         title: "SKYBAGS CHASE",
         size: [],
-        price: "3,600.00",
+        price: "5100.00",
         description: {description: "A super sleek, sporty and casual 32L backpack FIFA backpack for all the football fans. Ideal for college student or a day outings. Big enough to carry all your essentials. Sleek enough to carry it with ease",
                     sizeAndDim: "Cms = Centimetres"+
                     "Gms = Grams"+
@@ -1069,7 +1069,7 @@ export const data = [
         occasion: "",
         title: "SKYBAGS DISNEY FROZEN",
         size: [],
-        price: "3,000.00",
+        price: "3000.00",
         description: {description: "Skybags Disney & marvel Edition 2022 ( With Marvel & Frozen Visuals at the background )",
                     sizeAndDim: "Cms = Centimetres"+
                     "Gms = Grams"+
@@ -1127,7 +1127,7 @@ export const data = [
         occasion: "",
         title: "Skybags Active Gym Bag",
         size: [],
-        price: "3,000.00",
+        price: "3000.00",
         description: {description: "A perfect Gym partner",
                     sizeAndDim: "Cms = Centimetres"+
                     "Gms = Grams"+
@@ -1193,9 +1193,9 @@ export const data = [
         collection: "",   
         occasion: "",
         title: "SKYBAGS HUSTLE DFT",
-        size: ["Large", "Medium"],
-        price: "6,660.00",
-        description: {description: "A perfectly crafted bag to compliment  your style",
+        size: [],
+        price: "6660.00",
+        description: {description: "A perfect Gym partner",
                     sizeAndDim: "Cms = Centimetres"+
                     "Gms = Grams"+
                     "Medium-"+
